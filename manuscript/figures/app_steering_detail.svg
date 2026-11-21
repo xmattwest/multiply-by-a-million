@@ -1,0 +1,157 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='830' viewBox='0 0 1000 830' role='img' aria-labelledby='t d'><title id='t'>Full exploratory steering comparisons</title><desc id='d'>Panels a and b of fig7_interp, source interp-e3c-gemma-4-31b-it-20261006T111837Z; original checked values.</desc><rect width='1000' height='830' fill='white'/>
+<text x='20.0' y='34.0' font-size='22' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>a</text>
+<text x='46.0' y='34.0' font-size='19' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>Adding v at one layer: share of the ×1 / ×10⁶ gap moved (forced opening)</text>
+<rect x='374.7' y='98' width='40.7' height='230' fill='#EEF1F4'/>
+<text x='290.0' y='84.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='middle'>×1 prompt + v  (toward ×10⁶)</text>
+<line x1='90.0' y1='315.2' x2='490.0' y2='315.2' stroke='#EEF1F4' stroke-width='1'/>
+<text x='82.0' y='320.2' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>−50%</text>
+<line x1='90.0' y1='251.3' x2='490.0' y2='251.3' stroke='#6B6B6B' stroke-width='1.2' stroke-dasharray='4 3'/>
+<text x='82.0' y='256.3' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>0%</text>
+<line x1='90.0' y1='187.4' x2='490.0' y2='187.4' stroke='#EEF1F4' stroke-width='1'/>
+<text x='82.0' y='192.4' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>50%</text>
+<line x1='90.0' y1='123.6' x2='490.0' y2='123.6' stroke='#EEF1F4' stroke-width='1'/>
+<text x='82.0' y='128.6' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>100%</text>
+<path d='M90.0,251.3 L103.6,251.3 L117.1,251.3 L130.7,251.3 L144.2,251.3 L157.8,251.3 L171.4,251.3 L184.9,251.3 L198.5,228.9 L212.0,189.7 L225.6,185.1 L239.2,185.1 L252.7,185.1 L266.3,158.6 L279.8,137.0 L293.4,143.9 L306.9,128.5 L320.5,135.6 L334.1,135.6 L347.6,131.1 L361.2,134.0 L374.7,135.6 L388.3,140.5 L401.9,144.2 L415.4,149.5 L429.0,191.6 L442.5,191.3 L456.1,191.3 L469.7,207.1 L483.2,251.3 L490.0,251.3' fill='none' stroke='#2C3E50' stroke-width='3.2'/>
+<circle cx='279.8' cy='137.0' r='3.6' fill='white' stroke='#2C3E50' stroke-width='1.6'/>
+<circle cx='293.4' cy='143.9' r='3.6' fill='white' stroke='#2C3E50' stroke-width='1.6'/>
+<circle cx='306.9' cy='128.5' r='3.6' fill='white' stroke='#2C3E50' stroke-width='1.6'/>
+<circle cx='320.5' cy='135.6' r='3.6' fill='white' stroke='#2C3E50' stroke-width='1.6'/>
+<circle cx='334.1' cy='135.6' r='3.6' fill='white' stroke='#2C3E50' stroke-width='1.6'/>
+<path d='M90.0,251.3 L103.6,251.3 L117.1,251.3 L130.7,251.3 L144.2,251.3 L157.8,251.3 L171.4,251.3 L184.9,251.3 L198.5,251.3 L212.0,251.3 L225.6,251.3 L239.2,251.3 L252.7,251.3 L266.3,251.3 L279.8,251.3 L293.4,251.3 L306.9,248.8 L320.5,251.3 L334.1,242.7 L347.6,242.7 L361.2,189.7 L374.7,142.9 L388.3,149.4 L401.9,150.6 L415.4,159.3 L429.0,191.3 L442.5,193.8 L456.1,191.3 L469.7,207.1 L483.2,251.3 L490.0,251.3' fill='none' stroke='#B36B00' stroke-width='2.4'/>
+<path d='M90.0,251.3 L103.6,251.3 L117.1,251.3 L130.7,251.3 L144.2,251.3 L157.8,251.3 L171.4,251.3 L184.9,251.3 L198.5,228.9 L212.0,189.7 L225.6,185.1 L239.2,185.1 L252.7,185.1 L266.3,169.7 L279.8,140.6 L293.4,151.5 L306.9,150.0 L320.5,154.5 L334.1,147.0 L347.6,143.4 L361.2,184.6 L374.7,241.2 L388.3,241.2 L401.9,241.2 L415.4,248.9 L429.0,251.3 L442.5,251.3 L456.1,251.3 L469.7,251.3 L483.2,251.3 L490.0,251.3' fill='none' stroke='#4F6B3A' stroke-width='2.4' stroke-dasharray='7 4'/>
+<circle cx='279.8' cy='140.6' r='3.6' fill='white' stroke='#4F6B3A' stroke-width='1.6'/>
+<circle cx='293.4' cy='151.5' r='3.6' fill='white' stroke='#4F6B3A' stroke-width='1.6'/>
+<circle cx='306.9' cy='150.0' r='3.6' fill='white' stroke='#4F6B3A' stroke-width='1.6'/>
+<path d='M90.0,251.3 L103.6,251.3 L117.1,251.3 L130.7,251.3 L144.2,251.3 L157.8,251.3 L171.4,251.3 L184.9,251.3 L198.5,251.3 L212.0,251.3 L225.6,251.3 L239.2,251.3 L252.7,251.3 L266.3,251.3 L279.8,251.3 L293.4,255.9 L306.9,278.3 L320.5,328.0 L334.1,328.0 L347.6,328.0 L361.2,266.9 L374.7,251.3 L388.3,251.3 L401.9,248.7 L415.4,251.3 L429.0,251.3 L442.5,251.3 L456.1,251.3 L469.7,251.3 L483.2,251.3 L490.0,251.3' fill='none' stroke='#6B6B6B' stroke-width='2.0' stroke-dasharray='2 4'/>
+<polygon points='316.5,322.0 324.5,322.0 320.5,329.0' fill='#6B6B6B'/>
+<polygon points='330.1,322.0 338.1,322.0 334.1,329.0' fill='#6B6B6B'/>
+<polygon points='343.6,322.0 351.6,322.0 347.6,329.0' fill='#6B6B6B'/>
+<line x1='90.0' y1='328.0' x2='490.0' y2='328.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<line x1='90.0' y1='328.0' x2='90.0' y2='334.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='90.0' y='352.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>0</text>
+<line x1='157.8' y1='328.0' x2='157.8' y2='334.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='157.8' y='352.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>10</text>
+<line x1='225.6' y1='328.0' x2='225.6' y2='334.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='225.6' y='352.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>20</text>
+<line x1='293.4' y1='328.0' x2='293.4' y2='334.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='293.4' y='352.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>30</text>
+<line x1='361.2' y1='328.0' x2='361.2' y2='334.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='361.2' y='352.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>40</text>
+<line x1='429.0' y1='328.0' x2='429.0' y2='334.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='429.0' y='352.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>50</text>
+<line x1='490.0' y1='328.0' x2='490.0' y2='334.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='490.0' y='352.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>59</text>
+<text x='290.0' y='374.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>layer (of 60)</text>
+<rect x='844.7' y='98' width='40.7' height='230' fill='#EEF1F4'/>
+<text x='760.0' y='84.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='middle'>×10⁶ prompt − v  (toward ×1)</text>
+<line x1='560.0' y1='315.2' x2='960.0' y2='315.2' stroke='#EEF1F4' stroke-width='1'/>
+<text x='552.0' y='320.2' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>−50%</text>
+<line x1='560.0' y1='251.3' x2='960.0' y2='251.3' stroke='#6B6B6B' stroke-width='1.2' stroke-dasharray='4 3'/>
+<text x='552.0' y='256.3' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>0%</text>
+<line x1='560.0' y1='187.4' x2='960.0' y2='187.4' stroke='#EEF1F4' stroke-width='1'/>
+<text x='552.0' y='192.4' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>50%</text>
+<line x1='560.0' y1='123.6' x2='960.0' y2='123.6' stroke='#EEF1F4' stroke-width='1'/>
+<text x='552.0' y='128.6' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>100%</text>
+<path d='M560.0,251.3 L573.6,251.3 L587.1,245.4 L600.7,249.0 L614.2,245.4 L627.8,245.4 L641.4,249.0 L654.9,249.0 L668.5,250.1 L682.0,250.1 L695.6,250.1 L709.2,245.2 L722.7,223.0 L736.3,235.3 L749.8,235.3 L763.4,235.3 L776.9,241.0 L790.5,241.0 L804.1,239.8 L817.6,254.8 L831.2,214.8 L844.7,128.5 L858.3,141.4 L871.9,158.6 L885.4,156.7 L899.0,186.1 L912.5,186.1 L926.1,186.1 L939.7,214.5 L953.2,232.0 L960.0,234.3' fill='none' stroke='#2C3E50' stroke-width='3.2'/>
+<path d='M560.0,251.3 L573.6,251.3 L587.1,251.3 L600.7,251.3 L614.2,251.3 L627.8,251.3 L641.4,251.3 L654.9,251.3 L668.5,251.3 L682.0,251.3 L695.6,249.0 L709.2,251.3 L722.7,251.3 L736.3,249.0 L749.8,249.0 L763.4,249.0 L776.9,249.0 L790.5,247.7 L804.1,250.2 L817.6,258.9 L831.2,244.3 L844.7,177.7 L858.3,176.6 L871.9,178.2 L885.4,167.5 L899.0,197.0 L912.5,197.0 L926.1,186.1 L939.7,217.0 L953.2,234.3 L960.0,234.3' fill='none' stroke='#B36B00' stroke-width='2.4'/>
+<path d='M560.0,251.3 L573.6,251.3 L587.1,245.4 L600.7,249.0 L614.2,245.4 L627.8,245.4 L641.4,249.0 L654.9,249.0 L668.5,250.1 L682.0,250.1 L695.6,247.8 L709.2,245.2 L722.7,225.4 L736.3,236.6 L749.8,235.3 L763.4,239.9 L776.9,262.8 L790.5,261.6 L804.1,254.8 L817.6,259.3 L831.2,244.2 L844.7,232.0 L858.3,232.0 L871.9,234.1 L885.4,238.1 L899.0,245.4 L912.5,245.4 L926.1,245.4 L939.7,249.0 L953.2,251.3 L960.0,251.3' fill='none' stroke='#4F6B3A' stroke-width='2.4' stroke-dasharray='7 4'/>
+<path d='M560.0,251.3 L573.6,251.3 L587.1,251.3 L600.7,252.5 L614.2,251.3 L627.8,251.3 L641.4,251.3 L654.9,247.7 L668.5,251.3 L682.0,252.5 L695.6,251.3 L709.2,247.7 L722.7,253.7 L736.3,255.2 L749.8,259.8 L763.4,263.1 L776.9,270.7 L790.5,306.1 L804.1,313.6 L817.6,305.8 L831.2,277.2 L844.7,252.5 L858.3,242.5 L871.9,241.3 L885.4,222.6 L899.0,239.0 L912.5,235.0 L926.1,231.2 L939.7,249.0 L953.2,251.3 L960.0,251.3' fill='none' stroke='#6B6B6B' stroke-width='2.0' stroke-dasharray='2 4'/>
+<line x1='560.0' y1='328.0' x2='960.0' y2='328.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<line x1='560.0' y1='328.0' x2='560.0' y2='334.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='560.0' y='352.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>0</text>
+<line x1='627.8' y1='328.0' x2='627.8' y2='334.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='627.8' y='352.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>10</text>
+<line x1='695.6' y1='328.0' x2='695.6' y2='334.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='695.6' y='352.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>20</text>
+<line x1='763.4' y1='328.0' x2='763.4' y2='334.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='763.4' y='352.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>30</text>
+<line x1='831.2' y1='328.0' x2='831.2' y2='334.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='831.2' y='352.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>40</text>
+<line x1='899.0' y1='328.0' x2='899.0' y2='334.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='899.0' y='352.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>50</text>
+<line x1='960.0' y1='328.0' x2='960.0' y2='334.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='960.0' y='352.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>59</text>
+<text x='760.0' y='374.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>layer (of 60)</text>
+<text x='28.0' y='213.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle' transform='rotate(-90 28.0 213.0)'>share of the gap moved</text>
+<line x1='90' y1='399' x2='124' y2='399' stroke='#2C3E50' stroke-width='3.2'/>
+<text x='134.0' y='404.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>v on prompt + reply</text>
+<line x1='560' y1='399' x2='594' y2='399' stroke='#B36B00' stroke-width='2.4'/>
+<text x='604.0' y='404.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>v on the reply&#x27;s opening tokens only</text>
+<line x1='90' y1='421' x2='124' y2='421' stroke='#4F6B3A' stroke-width='2.4' stroke-dasharray='7 4'/>
+<text x='134.0' y='426.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>v on the prompt only</text>
+<line x1='560' y1='421' x2='594' y2='421' stroke='#6B6B6B' stroke-width='2.0' stroke-dasharray='2 4'/>
+<text x='604.0' y='426.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>non-money contrast, same size</text>
+<rect x='90' y='435' width='34' height='14' fill='#EEF1F4'/>
+<text x='134.0' y='448.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>layers 42–48: ≥ 50% both ways (part A&#x27;s pick)</text>
+<circle cx='577' cy='443' r='3.6' fill='white' stroke='#0F0F0F' stroke-width='1.6'/>
+<text x='604.0' y='448.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>&gt; 10% of prices off-scale (excluded)</text>
+<polygon points='103,459 111,459 107,466' fill='#6B6B6B'/>
+<text x='134.0' y='470.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>below −60%, drawn at the axis edge (non-money, layers 34–38)</text>
+<text x='20.0' y='522.0' font-size='22' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>b</text>
+<text x='46.0' y='522.0' font-size='19' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>Real sampled openings, steered with v on prompt + reply: mean seller markup</text>
+<line x1='250.0' y1='564.0' x2='250.0' y2='748.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='336.0' y1='564.0' x2='336.0' y2='748.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='422.0' y1='564.0' x2='422.0' y2='748.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='508.0' y1='564.0' x2='508.0' y2='748.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='594.0' y1='564.0' x2='594.0' y2='748.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='680.0' y1='564.0' x2='680.0' y2='748.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='517.7' y1='550.0' x2='517.7' y2='748.0' stroke='#6B6B6B' stroke-width='1.5' stroke-dasharray='5 3'/>
+<text x='517.7' y='544.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='middle'>unsteered ×1 41.1%</text>
+<line x1='337.8' y1='550.0' x2='337.8' y2='748.0' stroke='#6B6B6B' stroke-width='1.5' stroke-dasharray='5 3'/>
+<text x='337.8' y='544.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='middle'>unsteered ×10⁶ 20.2%</text>
+<text x='30.0' y='603.0' font-size='16' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>layer 42</text>
+<text x='236.0' y='588.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#2C3E50' font-weight='bold' text-anchor='end'>×1 + v</text>
+<line x1='517.7' y1='583.0' x2='349.8' y2='583.0' stroke='#2C3E50' stroke-width='2.5'/>
+<circle cx='349.8' cy='583.0' r='6' fill='#2C3E50'/>
+<circle cx='301.2' cy='583.0' r='5' fill='white' stroke='#2C3E50' stroke-width='2'/>
+<text x='700.0' y='588.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>α 1: 21.6%  (93% of gap)</text>
+<text x='975.0' y='588.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='end'>α 2: 15.9%</text>
+<text x='236.0' y='618.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#B36B00' font-weight='bold' text-anchor='end'>×10⁶ − v</text>
+<line x1='337.8' y1='613.0' x2='508.2' y2='613.0' stroke='#B36B00' stroke-width='2.5'/>
+<circle cx='508.2' cy='613.0' r='6' fill='#B36B00'/>
+<circle cx='565.4' cy='613.0' r='5' fill='white' stroke='#B36B00' stroke-width='2'/>
+<text x='700.0' y='618.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>α 1: 40.0%  (95% of gap)</text>
+<text x='975.0' y='618.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='end'>α 2: 46.7%</text>
+<text x='30.0' y='663.0' font-size='16' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>layer 44</text>
+<line x1='30.0' y1='628.0' x2='975.0' y2='628.0' stroke='#EEF1F4' stroke-width='1.2'/>
+<text x='236.0' y='648.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#2C3E50' font-weight='bold' text-anchor='end'>×1 + v</text>
+<line x1='517.7' y1='643.0' x2='360.5' y2='643.0' stroke='#2C3E50' stroke-width='2.5'/>
+<circle cx='360.5' cy='643.0' r='6' fill='#2C3E50'/>
+<circle cx='321.3' cy='643.0' r='5' fill='white' stroke='#2C3E50' stroke-width='2'/>
+<text x='700.0' y='648.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>α 1: 22.9%  (87% of gap)</text>
+<text x='975.0' y='648.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='end'>α 2: 18.3%</text>
+<text x='236.0' y='678.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#B36B00' font-weight='bold' text-anchor='end'>×10⁶ − v</text>
+<line x1='337.8' y1='673.0' x2='494.8' y2='673.0' stroke='#B36B00' stroke-width='2.5'/>
+<circle cx='494.8' cy='673.0' r='6' fill='#B36B00'/>
+<circle cx='654.4' cy='673.0' r='5' fill='white' stroke='#B36B00' stroke-width='2'/>
+<text x='700.0' y='678.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>α 1: 38.5%  (87% of gap)</text>
+<text x='975.0' y='678.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='end'>α 2: 57.0%</text>
+<text x='30.0' y='723.0' font-size='16' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>layer 48</text>
+<line x1='30.0' y1='688.0' x2='975.0' y2='688.0' stroke='#EEF1F4' stroke-width='1.2'/>
+<text x='236.0' y='708.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#2C3E50' font-weight='bold' text-anchor='end'>×1 + v</text>
+<line x1='517.7' y1='703.0' x2='376.3' y2='703.0' stroke='#2C3E50' stroke-width='2.5'/>
+<circle cx='376.3' cy='703.0' r='6' fill='#2C3E50'/>
+<circle cx='301.4' cy='703.0' r='5' fill='white' stroke='#2C3E50' stroke-width='2'/>
+<text x='700.0' y='708.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>α 1: 24.7%  (79% of gap)</text>
+<text x='975.0' y='708.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='end'>α 2: 16.0%</text>
+<text x='236.0' y='738.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#B36B00' font-weight='bold' text-anchor='end'>×10⁶ − v</text>
+<line x1='337.8' y1='733.0' x2='470.1' y2='733.0' stroke='#B36B00' stroke-width='2.5'/>
+<circle cx='470.1' cy='733.0' r='6' fill='#B36B00'/>
+<circle cx='572.7' cy='733.0' r='5' fill='white' stroke='#B36B00' stroke-width='2'/>
+<text x='700.0' y='738.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>α 1: 35.6%  (74% of gap)</text>
+<text x='975.0' y='738.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='end'>α 2: 47.5%</text>
+<line x1='250.0' y1='752.0' x2='680.0' y2='752.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<line x1='250.0' y1='752.0' x2='250.0' y2='758.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='250.0' y='776.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>10%</text>
+<line x1='336.0' y1='752.0' x2='336.0' y2='758.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='336.0' y='776.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>20%</text>
+<line x1='422.0' y1='752.0' x2='422.0' y2='758.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='422.0' y='776.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>30%</text>
+<line x1='508.0' y1='752.0' x2='508.0' y2='758.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='508.0' y='776.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>40%</text>
+<line x1='594.0' y1='752.0' x2='594.0' y2='758.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='594.0' y='776.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>50%</text>
+<line x1='680.0' y1='752.0' x2='680.0' y2='758.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='680.0' y='776.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>60%</text>
+<text x='250.0' y='800.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>filled: α 1; open: α 2.  90 openings per point (30 fixtures × 3); 1,080 of 1,080 steered replies valid.</text>
+</svg>

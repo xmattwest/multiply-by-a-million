@@ -1,0 +1,7 @@
+# clamp.txt: the message text of Study 3's scripted first offers (PREREGISTRATION.md §3.2).
+# A line "[name]" starts a fragment; it runs to the next "[name]" line. Lines starting with "#" are comments.
+# {{PRICE}} is filled with render_prompt.money(price), i.e. "<whole number> dollars", at every scale.
+[clamp_seller]
+I can offer the lot at {{PRICE}}.
+[clamp_buyer]
+I can pay {{PRICE}} for the lot.

@@ -1,0 +1,2 @@
+{"schema":"event/1","t":"2026-10-11T18:25:48.493Z","kind":"open","resumed":false,"prev_sha256":"0000000000000000000000000000000000000000000000000000000000000000"}
+{"schema":"event/1","t":"2026-10-11T19:21:34.142Z","kind":"close","status":"complete","why":null,"games":2160,"spent":3.951179,"unpriced_replies":0,"games_done":2160,"games_missing":0,"void_attempts":0,"forfeits":95,"prev_sha256":"bbdea214d897a65073dc9fb15c13991373dc72684949fc18716e166650eed623"}

@@ -1,0 +1,21 @@
+{
+ "schema": "run_summary/1",
+ "t": "2026-10-10T19:16:10.931Z",
+ "counts": {
+  "status": "complete",
+  "why": null,
+  "items": 1440,
+  "spent": 0.249344,
+  "unpriced_replies": 0,
+  "done": 1440,
+  "valid": 1440,
+  "invalid": 0,
+  "infra": 0
+ },
+ "sha256": {
+  "run_manifest.json": "420fff179e68cfeb11c1b44e9dc46a2c227df623cacc08d94eafc295b64830a3",
+  "calls.jsonl": "66bcbe1fddff19ac48077f57d65106a16800361e466e2498314e72c92d9c4acf",
+  "games.jsonl": "dad4eeea4870cb5634e2fd640d5bf03810490fd4ffd7fe8cb37c491756a92898",
+  "events.jsonl": "e2d80589fcacf65a5ec397e7befd11ce1eebda1599788fc414b5285562cb5a5d"
+ }
+}

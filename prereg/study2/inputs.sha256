@@ -1,0 +1,4 @@
+6971d07550cbd476a420998e08c045763a753daddddc4f941aa5c8976d3ba5ed  prereg/study2/prompts/system.txt
+297631146bc670dad4008f20f056bfccaf80d50e6ff6a50992fed1536c41dd3b  prereg/study2/prompts/user.txt
+5245fd7102baac6f0fdb4fb14f10a06e179fccdfcf9b8ca50ed34d8b81f32d1b  prereg/study2/prompts/fragments.txt
+520ec86b6431837043357443a6504206665fd282353363cc0d6d600a4aeece84  scripts/render_prompt_s2.py

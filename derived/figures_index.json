@@ -1,0 +1,351 @@
+{
+ "about": "Written by scripts/make_all_figures.py; read by scripts/build_site.py (figures.html).",
+ "groups": [
+  {
+   "group": "Across models \u00b7 the headline views",
+   "status": "C1 pre-registered primary (Holm per study); C2 Addendum A (Gemma confirmatory, Qwen reference)",
+   "command": "python3 scripts/cross_model_figures.py",
+   "figures": [
+    {
+     "path": "derived/cross_model/figures/C1_primary_by_model.svg",
+     "title": "Shift in seller share from $100 to $100M, by study and model",
+     "description": "One row per study and model: the mean per-fixture shift d with its 90% (thick) and 95% (thin) intervals. The green band is the pre-registered \u00b10.10 equivalence margin. Rows not yet run are labelled."
+    },
+    {
+     "path": "derived/cross_model/figures/C2_opener_modesty_by_model.svg",
+     "title": "Opener modesty at $100M, by model (Study 2 Addendum A, HA)",
+     "description": "One row per model: the mean per-fixture change in the opener's gap from its own limit, $100M minus $100, in percentage points, with a 95% interval. Below zero means the opener sits closer to its own limit at $100M. Qwen, the source of the hypothesis, is hollow; Gemma rows are the confirmatory test."
+    },
+    {
+     "path": "derived/cross_model/figures/C3_fixture_slopes_by_model.svg",
+     "title": "Seller share at $100, $100K and $100M for every fixture, by model (Study 2)",
+     "description": "One panel per Study 2 model. Each grey line is one fixture: its seller share (mean of the agreed games, both openers) at the three scales. The thick line is the mean over fixtures. Descriptive; the pre-registered test of $100M against $100 is in C1."
+    },
+    {
+     "path": "derived/cross_model/figures/C4_price_levels_by_model.svg",
+     "title": "Where the prices sit, as a multiple of the lot's value, by scale and model (Study 2)",
+     "description": "One panel per Study 2 model. Median opening offer when the seller opens (circles), when the buyer opens (triangles), and the median deal price (squares), each divided by V, the value the fixture was built around (never shown to the models). Dashed lines: the median seller floor and buyer ceiling, the same at every scale by design. Exploratory."
+    }
+   ]
+  },
+  {
+   "group": "Study 1 \u00b7 qwen3.8-27b-fp8 \u00b7 per-run figures",
+   "status": "1 = pre-registered primary; 2\u20133 descriptive",
+   "command": "python3 scripts/make_figures.py data/runs/qwen3.8-27b-fp8-20261003T180835Z",
+   "figures": [
+    {
+     "path": "derived/qwen3.8-27b-fp8-20261003T180835Z/figures/1_shift_per_fixture.svg",
+     "title": "Study 1 (appraisal shown) \u00b7 qwen3.8-27b-fp8: change in seller share from $100 to $100M, per fixture",
+     "description": "Dot plot of 30 fixtures. Each dot is the seller's share at $100M minus at $100. Mean -0.032, 95% CI -0.077 to +0.011, 90% CI -0.070 to +0.004, inside the \u00b10.10 equivalence margin. Wilcoxon p = 0.21 unadjusted."
+    },
+    {
+     "path": "derived/qwen3.8-27b-fp8-20261003T180835Z/figures/2_paired_shares.svg",
+     "title": "Study 1 (appraisal shown) \u00b7 qwen3.8-27b-fp8: seller share at $100 versus $100M, paired",
+     "description": "Scatter of 59 fixture-opener pairs. Points near the diagonal mean the split was the same at both scales. Circles: seller opened. Triangles: buyer opened."
+    },
+    {
+     "path": "derived/qwen3.8-27b-fp8-20261003T180835Z/figures/3_shares_by_scale.svg",
+     "title": "Study 1 (appraisal shown) \u00b7 qwen3.8-27b-fp8: seller share at each scale",
+     "description": "Strip plot of every agreed game's seller share at $100, $100K and $100M, with medians. Descriptive; the pre-registered secondary tests come later."
+    }
+   ]
+  },
+  {
+   "group": "Study 2 \u00b7 gemma-4-31b-it \u00b7 per-run figures",
+   "status": "1 = pre-registered primary; 2\u20133 descriptive",
+   "command": "python3 scripts/make_figures.py data/runs/s2-gemma-4-31b-it-20261004T012932Z",
+   "figures": [
+    {
+     "path": "derived/s2-gemma-4-31b-it-20261004T012932Z/figures/1_shift_per_fixture.svg",
+     "title": "Study 2 (no appraisal) \u00b7 gemma-4-31b-it: change in seller share from $100 to $100M, per fixture",
+     "description": "Dot plot of 30 fixtures. Each dot is the seller's share at $100M minus at $100. Mean -0.256, 95% CI -0.298 to -0.211, 90% CI -0.292 to -0.218, inside the \u00b10.10 equivalence margin. Wilcoxon p = 0.00 unadjusted."
+    },
+    {
+     "path": "derived/s2-gemma-4-31b-it-20261004T012932Z/figures/2_paired_shares.svg",
+     "title": "Study 2 (no appraisal) \u00b7 gemma-4-31b-it: seller share at $100 versus $100M, paired",
+     "description": "Scatter of 60 fixture-opener pairs. Points near the diagonal mean the split was the same at both scales. Circles: seller opened. Triangles: buyer opened."
+    },
+    {
+     "path": "derived/s2-gemma-4-31b-it-20261004T012932Z/figures/3_shares_by_scale.svg",
+     "title": "Study 2 (no appraisal) \u00b7 gemma-4-31b-it: seller share at each scale",
+     "description": "Strip plot of every agreed game's seller share at $100, $100K and $100M, with medians. Descriptive; the pre-registered secondary tests come later."
+    }
+   ]
+  },
+  {
+   "group": "Study 2 \u00b7 qwen3.8-27b-fp8 \u00b7 per-run figures",
+   "status": "1 = pre-registered primary; 2\u20133 descriptive",
+   "command": "python3 scripts/make_figures.py data/runs/s2-qwen3.8-27b-fp8-20261003T223042Z",
+   "figures": [
+    {
+     "path": "derived/s2-qwen3.8-27b-fp8-20261003T223042Z/figures/1_shift_per_fixture.svg",
+     "title": "Study 2 (no appraisal) \u00b7 qwen3.8-27b-fp8: change in seller share from $100 to $100M, per fixture",
+     "description": "Dot plot of 29 fixtures. Each dot is the seller's share at $100M minus at $100. Mean +0.009, 95% CI -0.088 to +0.116, 90% CI -0.074 to +0.099, inside the \u00b10.10 equivalence margin. Wilcoxon p = 0.74 unadjusted."
+    },
+    {
+     "path": "derived/s2-qwen3.8-27b-fp8-20261003T223042Z/figures/2_paired_shares.svg",
+     "title": "Study 2 (no appraisal) \u00b7 qwen3.8-27b-fp8: seller share at $100 versus $100M, paired",
+     "description": "Scatter of 54 fixture-opener pairs. Points near the diagonal mean the split was the same at both scales. Circles: seller opened. Triangles: buyer opened."
+    },
+    {
+     "path": "derived/s2-qwen3.8-27b-fp8-20261003T223042Z/figures/3_shares_by_scale.svg",
+     "title": "Study 2 (no appraisal) \u00b7 qwen3.8-27b-fp8: seller share at each scale",
+     "description": "Strip plot of every agreed game's seller share at $100, $100K and $100M, with medians. Descriptive; the pre-registered secondary tests come later."
+    }
+   ]
+  },
+  {
+   "group": "Exploratory sweep \u00b7 Qwen, Study 1 and 2 (real + pilot)",
+   "status": "exploratory, not pre-registered",
+   "command": "python3 scripts/explore_figures.py",
+   "figures": [
+    {
+     "path": "derived/explore/figures/E1_opening_gap.svg",
+     "title": "Opening offers move toward the opener's own limit at higher stakes, only without the appraisal",
+     "description": "Two panels. Seller opens: markup of the first ask over the seller's floor. Buyer opens: discount of the first bid under the buyer's ceiling. Study 2 lines fall from $100 to $100M in both the real run and its pilot; Study 1 lines stay flat."
+    },
+    {
+     "path": "derived/explore/figures/E2_opener_edge.svg",
+     "title": "The opener's advantage reverses at high stakes without the appraisal",
+     "description": "Seller share when the seller opens minus seller share when the buyer opens, at $100, $100K and $100M. Study 2 and its pilot fall from about +0.1 to between -0.24 and -0.34. Study 1 and its pilot stay near zero."
+    },
+    {
+     "path": "derived/explore/figures/E3_opening_per_fixture.svg",
+     "title": "Opening gap at $100 and at $100M for every fixture",
+     "description": "Slopegraphs, one line per fixture, for Study 1 and Study 2 real runs, seller-opened and buyer-opened. Most Study 2 lines slope down; Study 1 lines go both ways."
+    },
+    {
+     "path": "derived/explore/figures/E4_process_vs_outcome.svg",
+     "title": "The split stays flat while the bargaining process changes with scale",
+     "description": "Five small panels across $100, $100K, $100M for all four datasets: mean seller share is flat within each study; median concession step falls; offers per game, words per message and the share of messages saying final or best offer rise."
+    }
+   ]
+  },
+  {
+   "group": "Probe q1q3 \u00b7 qwen3.8-27b-fp8 (appraisal on/off; hidden information)",
+   "status": "exploratory, not pre-registered",
+   "command": "python3 scripts/probe_figures.py data/explore/X-q1q3-qwen3.8-27b-fp8-20261004T001244Z",
+   "figures": [
+    {
+     "path": "derived/explore/X-q1q3-qwen3.8-27b-fp8-20261004T001244Z/figures/P1_split_by_condition.svg",
+     "title": "Seller share at $100 and $100M by condition",
+     "description": "Four lines. With the appraisal (A) and with no appraisal (N) the seller share barely moves with stakes. When the seller knows the buyer's ceiling (LS) its share rises from 0.45 to 0.56 at $100M; when the buyer knows the seller's floor (LB) the seller share falls from 0.41 to 0.23. Bars are 95% bootstrap intervals."
+    },
+    {
+     "path": "derived/explore/X-q1q3-qwen3.8-27b-fp8-20261004T001244Z/figures/P2_leak_as_anchor.svg",
+     "title": "The leaked limit becomes the informed side's opening offer",
+     "description": "Two panels of dots, one per game. Buyer opens: bid divided by the seller's floor; with the leak almost every bid is exactly 1.0, the floor, while without it bids at $100 sit well below the floor. Seller opens: ask divided by the buyer's ceiling; with the leak asks move up toward the ceiling, most at $100M."
+    },
+    {
+     "path": "derived/explore/X-q1q3-qwen3.8-27b-fp8-20261004T001244Z/figures/P3_q1_replication.svg",
+     "title": "Q1: opener modesty at $100M replicates on fresh fixtures, only without the appraisal",
+     "description": "Two panels: seller's markup over its floor and buyer's discount under its ceiling, at $100 and $100M. Without the appraisal (Study 2 and probe N) both shrink at $100M; with it (Study 1 and probe A) they don't. The probe's shrink is smaller than Study 2's."
+    }
+   ]
+  },
+  {
+   "group": "Probe digits x stakes \u00b7 gemma-4-31b-it (first moves, fresh fixtures)",
+   "status": "exploratory, not pre-registered",
+   "command": "python3 scripts/analyze_digits_probe.py data/explore/X-digits-gemma-4-31b-it-20261004T034215Z",
+   "figures": [
+    {
+     "path": "derived/explore/X-digits-gemma-4-31b-it-20261004T034215Z/figures/D1_gap_by_condition.svg",
+     "title": "Digits x stakes probe: opener's first-offer gap by condition \u00b7 gemma-4-31b-it",
+     "description": "One row per condition, two panels (seller opens, buyer opens): the mean gap between the opener's first offer and its own limit, in percent of the limit, over fresh fixtures. Lower means the opener sits closer to its own limit (more modest). Exploratory, not pre-registered."
+    }
+   ]
+  },
+  {
+   "group": "Probe digits x stakes \u00b7 gemma-4-31b-it (first moves, fresh fixtures)",
+   "status": "exploratory, not pre-registered",
+   "command": "python3 scripts/analyze_digits_probe.py data/explore/X-digits-gemma-4-31b-it-20261004T042802Z",
+   "figures": [
+    {
+     "path": "derived/explore/X-digits-gemma-4-31b-it-20261004T042802Z/figures/D1_gap_by_condition.svg",
+     "title": "Digits x stakes probe: opener's first-offer gap by condition \u00b7 gemma-4-31b-it",
+     "description": "One row per condition, two panels (seller opens, buyer opens): the mean gap between the opener's first offer and its own limit, in percent of the limit, over fresh fixtures. Lower means the opener sits closer to its own limit (more modest). Exploratory, not pre-registered."
+    }
+   ]
+  },
+  {
+   "group": "Probe new game \u00b7 gemma-4-31b-it (redesigned ranges, notation, bot, appraisal)",
+   "status": "exploratory, not pre-registered",
+   "command": "python3 scripts/analyze_game_probe.py data/explore/X-newgame-gemma-4-31b-it-20261004T142428Z",
+   "figures": [
+    {
+     "path": "derived/explore/X-newgame-gemma-4-31b-it-20261004T142428Z/figures/G1_scale_shift_by_cell.svg",
+     "title": "New-game probe: change in seller share from x1 to x10^6, by cell \u00b7 gemma-4-31b-it",
+     "description": "One row per cell: the mean per-fixture change in the seller's share of the surplus when every amount gains six zeros, with a 95% bootstrap interval. Negative means the seller does worse at the large scale. Exploratory, not pre-registered."
+    },
+    {
+     "path": "derived/explore/X-newgame-gemma-4-31b-it-20261004T142428Z/figures/G2_opening_gaps_by_cell.svg",
+     "title": "New-game probe: opener's first-offer gap at x1 and x10^6, by cell \u00b7 gemma-4-31b-it",
+     "description": "One row per cell and opening role: hollow dot = mean gap between the first offer and the opener's own limit at the small scale, filled dot = at the x10^6 scale, in percent of the limit; the line joins them. Exploratory."
+    },
+    {
+     "path": "derived/explore/X-newgame-gemma-4-31b-it-20261004T142428Z/figures/G3_zone_positions.svg",
+     "title": "Opening offers as a position in the deal zone, small vs x10^6 \u00b7 gemma-4-31b-it",
+     "description": "One row per game design. Horizontal axis: the deal zone, 0 = seller's floor, 1 = buyer's ceiling. Blue: where seller openers start; orange: buyer openers. Hollow = small scale, filled = x10^6. The diamond is the midpoint of the two openings. Games without a slipped offer. Exploratory."
+    },
+    {
+     "path": "derived/explore/X-newgame-gemma-4-31b-it-20261004T142428Z/figures/G4_comma_slips.svg",
+     "title": "Games with a price cut at its first comma, by cell and scale \u00b7 gemma-4-31b-it",
+     "description": "One row per cell: the share of games in which a model's JSON price was cut at the first comma (for example \"price\": 68 while the message says $68,640,000), at the small scale (hollow bar) and at x10^6 (filled). A measurement artifact of the reply format; fixed in the next probe."
+    }
+   ]
+  },
+  {
+   "group": "Probe geometry x notation \u00b7 gemma-4-31b-it (zone shape, price notation, bot)",
+   "status": "exploratory, not pre-registered",
+   "command": "python3 scripts/analyze_geom_probe.py data/explore/X-geom-gemma-4-31b-it-20261004T154019Z",
+   "figures": [
+    {
+     "path": "derived/explore/X-geom-gemma-4-31b-it-20261004T154019Z/figures/GX1_shift_by_geometry_notation.svg",
+     "title": "Geometry x notation: change in seller share from x1 to x10^6 \u00b7 gemma-4-31b-it",
+     "description": "Three panels (self-play; model as seller vs the bot; model as buyer vs the bot). One row per zone geometry and price notation: the mean per-fixture change in seller share when every amount gains six zeros, with a 95% bootstrap interval. Exploratory, not pre-registered."
+    },
+    {
+     "path": "derived/explore/X-geom-gemma-4-31b-it-20261004T154019Z/figures/GX2_zone_positions.svg",
+     "title": "Geometry x notation: openers' first offers as a position in the deal zone \u00b7 gemma-4-31b-it",
+     "description": "One row per zone geometry and notation. Axis: the deal zone, 0 = seller's floor, 1 = buyer's ceiling. Blue: seller openers; orange: buyer openers; hollow = x1, filled = x10^6; diamonds = the midpoint of the two openings (where deals land). Self-play. Exploratory."
+    }
+   ]
+  },
+  {
+   "group": "Probe geometry x notation \u00b7 qwen3.8-27b-fp8 (zone shape, price notation, bot)",
+   "status": "exploratory, not pre-registered",
+   "command": "python3 scripts/analyze_geom_probe.py data/explore/X-geom-qwen3.8-27b-fp8-20261004T181743Z",
+   "figures": [
+    {
+     "path": "derived/explore/X-geom-qwen3.8-27b-fp8-20261004T181743Z/figures/GX1_shift_by_geometry_notation.svg",
+     "title": "Geometry x notation: change in seller share from x1 to x10^6 \u00b7 qwen3.8-27b-fp8",
+     "description": "Three panels (self-play; model as seller vs the bot; model as buyer vs the bot). One row per zone geometry and price notation: the mean per-fixture change in seller share when every amount gains six zeros, with a 95% bootstrap interval. Exploratory, not pre-registered."
+    },
+    {
+     "path": "derived/explore/X-geom-qwen3.8-27b-fp8-20261004T181743Z/figures/GX2_zone_positions.svg",
+     "title": "Geometry x notation: openers' first offers as a position in the deal zone \u00b7 qwen3.8-27b-fp8",
+     "description": "One row per zone geometry and notation. Axis: the deal zone, 0 = seller's floor, 1 = buyer's ceiling. Blue: seller openers; orange: buyer openers; hollow = x1, filled = x10^6; diamonds = the midpoint of the two openings (where deals land). Self-play. Exploratory."
+    }
+   ]
+  },
+  {
+   "group": "Probe prompt style \u00b7 gemma-4-31b-it",
+   "status": "exploratory, not pre-registered",
+   "command": "python3 scripts/analyze_cell_probe.py data/explore/X-prompt-gemma-4-31b-it-20261004T181723Z",
+   "figures": [
+    {
+     "path": "derived/explore/X-prompt-gemma-4-31b-it-20261004T181723Z/figures/PX1_share_by_cell.svg",
+     "title": "PX1: share of the deal zone at x1 and x10^6, per cell \u00b7 gemma-4-31b-it",
+     "description": "One row per cell. Hollow dot: mean share at x1; filled dot: at x10^6 (per-fixture means). Self-play rows show the seller's share; bot rows show the model's own share. Right: the change x10^6 minus x1 with its 95% interval. Exploratory."
+    },
+    {
+     "path": "derived/explore/X-prompt-gemma-4-31b-it-20261004T181723Z/figures/PX2_opening_gaps_by_cell.svg",
+     "title": "PX2: opening ambition at x1 and x10^6, per cell \u00b7 gemma-4-31b-it",
+     "description": "One row per cell and opening side. The gap between the first offer and the side's own limit, in percentage points of that limit. Hollow = x1, filled = x10^6. Blue = seller opens; orange = buyer opens; green = the model's first offer against the bot. Exploratory."
+    }
+   ]
+  },
+  {
+   "group": "Probe prompt style \u00b7 qwen3.8-27b-fp8",
+   "status": "exploratory, not pre-registered",
+   "command": "python3 scripts/analyze_cell_probe.py data/explore/X-prompt-qwen3.8-27b-fp8-20261004T181752Z",
+   "figures": [
+    {
+     "path": "derived/explore/X-prompt-qwen3.8-27b-fp8-20261004T181752Z/figures/PX1_share_by_cell.svg",
+     "title": "PX1: share of the deal zone at x1 and x10^6, per cell \u00b7 qwen3.8-27b-fp8",
+     "description": "One row per cell. Hollow dot: mean share at x1; filled dot: at x10^6 (per-fixture means). Self-play rows show the seller's share; bot rows show the model's own share. Right: the change x10^6 minus x1 with its 95% interval. Exploratory."
+    },
+    {
+     "path": "derived/explore/X-prompt-qwen3.8-27b-fp8-20261004T181752Z/figures/PX2_opening_gaps_by_cell.svg",
+     "title": "PX2: opening ambition at x1 and x10^6, per cell \u00b7 qwen3.8-27b-fp8",
+     "description": "One row per cell and opening side. The gap between the first offer and the side's own limit, in percentage points of that limit. Hollow = x1, filled = x10^6. Blue = seller opens; orange = buyer opens; green = the model's first offer against the bot. Exploratory."
+    }
+   ]
+  },
+  {
+   "group": "Probe cross-play \u00b7 gemma-4-31b-it vs qwen3.8-27b-fp8",
+   "status": "exploratory, not pre-registered",
+   "command": "python3 scripts/analyze_cell_probe.py data/explore/X-cross-gemma-4-31b-it-vs-qwen3.8-27b-fp8-20261004T181800Z",
+   "figures": [
+    {
+     "path": "derived/explore/X-cross-gemma-4-31b-it-vs-qwen3.8-27b-fp8-20261004T181800Z/figures/MX1_share_by_cell.svg",
+     "title": "MX1: share of the deal zone at x1 and x10^6, per cell \u00b7 gemma-4-31b-it vs qwen3.8-27b-fp8",
+     "description": "One row per cell. Hollow dot: mean share at x1; filled dot: at x10^6 (per-fixture means). Self-play rows show the seller's share; bot rows show the model's own share. Right: the change x10^6 minus x1 with its 95% interval. Exploratory."
+    },
+    {
+     "path": "derived/explore/X-cross-gemma-4-31b-it-vs-qwen3.8-27b-fp8-20261004T181800Z/figures/MX2_opening_gaps_by_cell.svg",
+     "title": "MX2: opening ambition at x1 and x10^6, per cell \u00b7 gemma-4-31b-it vs qwen3.8-27b-fp8",
+     "description": "One row per cell and opening side. The gap between the first offer and the side's own limit, in percentage points of that limit. Hollow = x1, filled = x10^6. Blue = seller opens; orange = buyer opens; green = the model's first offer against the bot. Exploratory."
+    }
+   ]
+  },
+  {
+   "group": "Probe asymmetric information \u00b7 gemma-4-31b-it",
+   "status": "exploratory, not pre-registered",
+   "command": "python3 scripts/analyze_info_probe.py data/explore/X-info-gemma-4-31b-it-20261004T190958Z",
+   "figures": [
+    {
+     "path": "derived/explore/X-info-gemma-4-31b-it-20261004T190958Z/figures/IX1_share_by_cell.svg",
+     "title": "IX1: share of the deal zone at x1 and x10^6, per cell \u00b7 gemma-4-31b-it",
+     "description": "One row per cell. Hollow dot: mean share at x1; filled dot: at x10^6 (per-fixture means). Self-play rows show the seller's share; bot rows show the model's own share. Right: the change x10^6 minus x1 with its 95% interval. Exploratory."
+    },
+    {
+     "path": "derived/explore/X-info-gemma-4-31b-it-20261004T190958Z/figures/IX2_opening_gaps_by_cell.svg",
+     "title": "IX2: opening ambition at x1 and x10^6, per cell \u00b7 gemma-4-31b-it",
+     "description": "One row per cell and opening side. The gap between the first offer and the side's own limit, in percentage points of that limit. Hollow = x1, filled = x10^6. Blue = seller opens; orange = buyer opens; green = the model's first offer against the bot. Exploratory."
+    }
+   ]
+  },
+  {
+   "group": "Probe asymmetric information \u00b7 qwen3.8-27b-fp8",
+   "status": "exploratory, not pre-registered",
+   "command": "python3 scripts/analyze_info_probe.py data/explore/X-info-qwen3.8-27b-fp8-20261004T191018Z",
+   "figures": [
+    {
+     "path": "derived/explore/X-info-qwen3.8-27b-fp8-20261004T191018Z/figures/IX1_share_by_cell.svg",
+     "title": "IX1: share of the deal zone at x1 and x10^6, per cell \u00b7 qwen3.8-27b-fp8",
+     "description": "One row per cell. Hollow dot: mean share at x1; filled dot: at x10^6 (per-fixture means). Self-play rows show the seller's share; bot rows show the model's own share. Right: the change x10^6 minus x1 with its 95% interval. Exploratory."
+    },
+    {
+     "path": "derived/explore/X-info-qwen3.8-27b-fp8-20261004T191018Z/figures/IX2_opening_gaps_by_cell.svg",
+     "title": "IX2: opening ambition at x1 and x10^6, per cell \u00b7 qwen3.8-27b-fp8",
+     "description": "One row per cell and opening side. The gap between the first offer and the side's own limit, in percentage points of that limit. Hollow = x1, filled = x10^6. Blue = seller opens; orange = buyer opens; green = the model's first offer against the bot. Exploratory."
+    }
+   ]
+  },
+  {
+   "group": "Probe digits x stakes \u00b7 gemma-4-31b-it \u00b7 all wordings combined",
+   "status": "exploratory, not pre-registered",
+   "command": "python3 scripts/digits_figures.py --model gemma-4-31b-it",
+   "figures": [
+    {
+     "path": "derived/explore/digits_combined/gemma-4-31b-it/figures/DX1_all_wordings.svg",
+     "title": "Opener's first-offer gap for every wording tested, grouped by stakes \u00b7 gemma-4-31b-it",
+     "description": "Two panels (seller opens, buyer opens). One row per wording of the opener's own limit, grouped by what the deal is worth ($81, $81 thousand, $81 million). Dot: mean over fresh fixtures of the gap between the first offer and the opener's own limit, in percent of the limit; bar: 95% bootstrap interval over fixtures. Lower = more modest. Exploratory, not pre-registered."
+    },
+    {
+     "path": "derived/explore/digits_combined/gemma-4-31b-it/figures/DX2_round_tens.svg",
+     "title": "Share of first offers that are round tens, by wording \u00b7 gemma-4-31b-it",
+     "description": "Two panels (seller opens, buyer opens). One row per wording, grouped by stakes. Bar: share of first offers that are a whole multiple of 10 once put on the $100 scale (120, 120 thousand, 120 million all count). The text gives the single most common offer and its share. Exploratory."
+    },
+    {
+     "path": "derived/explore/digits_combined/gemma-4-31b-it/figures/DX3_opening_vs_floor.svg",
+     "title": "Seller's first offer against its floor: \"81 dollars\" vs \"81000000 dollars\" \u00b7 gemma-4-31b-it",
+     "description": "Two panels, one per wording. Each dot is one seller first offer (on the $100 scale) against the seller's floor; dots are jittered slightly so stacks are visible. Solid line: the floor itself; dashed line: a least-squares fit. At \"81 dollars\" offers stack on round prices (most on 120) whatever the floor; at \"81000000 dollars\" they sit closer to the floor and step up with it (stacks at 95 and 110 million). Exploratory."
+    }
+   ]
+  },
+  {
+   "group": "Concession path \u00b7 where the \u00d710\u2076 split shift lives (opening vs concessions)",
+   "status": "exploratory, not pre-registered",
+   "command": "python3 scripts/concession_figures.py derived/explore/concessions_wp1.json derived/explore/concessions/figures",
+   "figures": [
+    {
+     "path": "derived/explore/concessions/figures/CC1_concession_decomposition.svg",
+     "title": "Where the big-number split shift lives: opening vs concessions",
+     "description": "For each self-play cell, the x1->x10^6 change in the seller's share (square) is split into an opening channel (how far the midpoint of the two first offers moves) and a concession channel (how far the deal then drifts off that midpoint). In the P/P cell the openings are pinned by the range anchor, so the opening channel is near zero yet the split still falls: that shift lives in the concessions. Exploratory, not pre-registered."
+    }
+   ]
+  }
+ ]
+}

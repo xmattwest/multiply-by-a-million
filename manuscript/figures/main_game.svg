@@ -1,0 +1,28 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='500' height='330' viewBox='0 0 500 330' role='img' aria-labelledby='t d'><title id='t'>Fixed-geometry bargaining and an illustrative pair</title><desc id='d'>Source: Study 2 Gemma run s2-gemma-4-31b-it-20261004T012932Z, F19 seller-opened games. The complete design also includes $100K and buyer openers. Initial prompt identity checked by fig1_game.load.</desc><rect width='500' height='330' fill='white'/>
+<text x='20.0' y='27.0' font-size='22' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>One bargain, rescaled</text>
+<rect x='20' y='44' width='210' height='81' rx='6' fill='white' stroke='#2C3E50' stroke-width='2'/>
+<text x='125.0' y='68.0' font-size='20' font-family="Helvetica, Arial, sans-serif" fill='#2C3E50' font-weight='bold' text-anchor='middle'>Seller</text>
+<text x='125.0' y='92.0' font-size='18' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>private floor</text>
+<text x='125.0' y='115.0' font-size='18' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>F = 0.83 V</text>
+<rect x='270' y='44' width='210' height='81' rx='6' fill='white' stroke='#4F6B3A' stroke-width='2'/>
+<text x='375.0' y='68.0' font-size='20' font-family="Helvetica, Arial, sans-serif" fill='#4F6B3A' font-weight='bold' text-anchor='middle'>Buyer</text>
+<text x='375.0' y='92.0' font-size='18' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>private ceiling</text>
+<text x='375.0' y='115.0' font-size='18' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>C = 1.18 V</text>
+<line x1='235.0' y1='83.0' x2='263.0' y2='83.0' stroke='#6B6B6B' stroke-width='2'/>
+<text x='250.0' y='152.0' font-size='18' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>Same model; alternating JSON moves</text>
+<text x='20.0' y='189.0' font-size='18' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>Scale</text>
+<text x='172.0' y='189.0' font-size='18' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='middle'>Opens</text>
+<text x='294.0' y='189.0' font-size='18' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='middle'>Settles</text>
+<text x='425.0' y='189.0' font-size='18' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='middle'>Seller share</text>
+<line x1='20.0' y1='198.0' x2='480.0' y2='198.0' stroke='#6B6B6B' stroke-width='1.5'/>
+<text x='20.0' y='229.0' font-size='19' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>$100</text>
+<text x='172.0' y='229.0' font-size='19' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>$120</text>
+<text x='294.0' y='229.0' font-size='19' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>$107</text>
+<text x='425.0' y='229.0' font-size='19' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='middle'>69%</text>
+<text x='20.0' y='269.0' font-size='19' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>$100M</text>
+<text x='172.0' y='269.0' font-size='19' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>$95M</text>
+<text x='294.0' y='269.0' font-size='19' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>$87M</text>
+<text x='425.0' y='269.0' font-size='19' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='middle'>11%</text>
+<line x1='20.0' y1='284.0' x2='480.0' y2='284.0' stroke='#6B6B6B' stroke-width='1.5'/>
+<text x='250.0' y='313.0' font-size='18' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='middle'>Illustration: F19, Gemma, seller opens</text>
+</svg>

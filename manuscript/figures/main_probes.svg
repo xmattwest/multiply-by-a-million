@@ -1,0 +1,55 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='430' viewBox='0 0 1000 430' role='img' aria-labelledby='t d'><title id='t'>Instruction versus information against a scale-invariant bot</title><desc id='d'>Source: fig5_map.RUN prompt and info runs for Qwen and Gemma; exact BOT model=seller share contrasts, 95% CIs and n read through fig5_map.contrast. Separate baselines for the P and I fixture sets. All exploratory.</desc><rect width='1000' height='430' fill='white'/>
+<text x='20.0' y='28.0' font-size='20' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>Exploratory bot comparisons</text>
+<text x='20.0' y='80.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>Instructions · P01–P30</text>
+<text x='20.0' y='209.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>Information · I01–I30</text>
+<text x='472.5' y='45.0' font-size='20' font-family="Helvetica, Arial, sans-serif" fill='#2C3E50' font-weight='bold' text-anchor='middle'>Qwen3.8 27B</text>
+<line x1='373.3' y1='65.0' x2='373.3' y2='356.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='373.3' y1='356.0' x2='373.3' y2='361.0' stroke='#0F0F0F' stroke-width='1'/>
+<text x='373.3' y='381.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>−0.3</text>
+<line x1='458.3' y1='65.0' x2='458.3' y2='356.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='458.3' y1='356.0' x2='458.3' y2='361.0' stroke='#0F0F0F' stroke-width='1'/>
+<text x='458.3' y='381.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>−0.15</text>
+<line x1='543.3' y1='65.0' x2='543.3' y2='356.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='543.3' y1='356.0' x2='543.3' y2='361.0' stroke='#0F0F0F' stroke-width='1'/>
+<text x='543.3' y='381.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>0</text>
+<line x1='345.0' y1='356.0' x2='600.0' y2='356.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<line x1='543.3' y1='65.0' x2='543.3' y2='356.0' stroke='#6B6B6B' stroke-width='1' stroke-dasharray='4 3'/>
+<text x='20.0' y='114.0' font-size='18' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>No addition</text>
+<line x1='480.7' y1='109.0' x2='532.2' y2='109.0' stroke='#2C3E50' stroke-width='3'/>
+<circle cx='503.8' cy='109.0' r='5.5' fill='#2C3E50' stroke='#2C3E50' stroke-width='2'/>
+<text x='20.0' y='158.0' font-size='18' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>Scale-neutral instruction</text>
+<line x1='458.3' y1='153.0' x2='499.1' y2='153.0' stroke='#2C3E50' stroke-width='3'/>
+<circle cx='479.3' cy='153.0' r='5.5' fill='#2C3E50' stroke='#2C3E50' stroke-width='2'/>
+<text x='20.0' y='243.0' font-size='18' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>No information</text>
+<line x1='485.3' y1='238.0' x2='516.9' y2='238.0' stroke='#2C3E50' stroke-width='3'/>
+<circle cx='501.1' cy='238.0' r='5.5' fill='#2C3E50' stroke='#2C3E50' stroke-width='2'/>
+<text x='20.0' y='287.0' font-size='18' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>Private appraisal</text>
+<line x1='499.1' y1='282.0' x2='522.3' y2='282.0' stroke='#2C3E50' stroke-width='3'/>
+<circle cx='511.4' cy='282.0' r='5.5' fill='#2C3E50' stroke='#2C3E50' stroke-width='2'/>
+<text x='20.0' y='331.0' font-size='18' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>Counterpart&#x27;s range</text>
+<line x1='524.8' y1='326.0' x2='562.5' y2='326.0' stroke='#2C3E50' stroke-width='3'/>
+<circle cx='543.0' cy='326.0' r='5.5' fill='#2C3E50' stroke='#2C3E50' stroke-width='2'/>
+<text x='797.5' y='45.0' font-size='20' font-family="Helvetica, Arial, sans-serif" fill='#B36B00' font-weight='bold' text-anchor='middle'>Gemma 4 31B</text>
+<line x1='698.3' y1='65.0' x2='698.3' y2='356.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='698.3' y1='356.0' x2='698.3' y2='361.0' stroke='#0F0F0F' stroke-width='1'/>
+<text x='698.3' y='381.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>−0.3</text>
+<line x1='783.3' y1='65.0' x2='783.3' y2='356.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='783.3' y1='356.0' x2='783.3' y2='361.0' stroke='#0F0F0F' stroke-width='1'/>
+<text x='783.3' y='381.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>−0.15</text>
+<line x1='868.3' y1='65.0' x2='868.3' y2='356.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='868.3' y1='356.0' x2='868.3' y2='361.0' stroke='#0F0F0F' stroke-width='1'/>
+<text x='868.3' y='381.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>0</text>
+<line x1='670.0' y1='356.0' x2='925.0' y2='356.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<line x1='868.3' y1='65.0' x2='868.3' y2='356.0' stroke='#6B6B6B' stroke-width='1' stroke-dasharray='4 3'/>
+<line x1='777.3' y1='109.0' x2='800.8' y2='109.0' stroke='#B36B00' stroke-width='3'/>
+<circle cx='789.5' cy='109.0' r='5.5' fill='#B36B00' stroke='#B36B00' stroke-width='2'/>
+<line x1='768.0' y1='153.0' x2='799.1' y2='153.0' stroke='#B36B00' stroke-width='3'/>
+<circle cx='784.5' cy='153.0' r='5.5' fill='#B36B00' stroke='#B36B00' stroke-width='2'/>
+<line x1='772.0' y1='238.0' x2='803.2' y2='238.0' stroke='#B36B00' stroke-width='3'/>
+<circle cx='788.6' cy='238.0' r='5.5' fill='#B36B00' stroke='#B36B00' stroke-width='2'/>
+<line x1='834.6' y1='282.0' x2='852.5' y2='282.0' stroke='#B36B00' stroke-width='3'/>
+<circle cx='843.6' cy='282.0' r='5.5' fill='#B36B00' stroke='#B36B00' stroke-width='2'/>
+<line x1='864.9' y1='326.0' x2='884.0' y2='326.0' stroke='#B36B00' stroke-width='3'/>
+<circle cx='874.6' cy='326.0' r='5.5' fill='#B36B00' stroke='#B36B00' stroke-width='2'/>
+<text x='635.0' y='411.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>×10⁶ − ×1 change in the model-seller&#x27;s own surplus share</text>
+</svg>

@@ -1,0 +1,34 @@
+{"why": "a plain offer", "content": "{\"action\": \"OFFER\", \"price\": 94000, \"message\": \"How about this?\"}", "pending": false, "ok": true}
+{"why": "surrounding whitespace is allowed", "content": "\n  {\"action\":\"WALKAWAY\",\"price\":null,\"message\":\"\"}  \n", "pending": true, "ok": true}
+{"why": "accept with an offer pending", "content": "{\"action\": \"ACCEPT\", \"price\": null, \"message\": \"Deal.\"}", "pending": true, "ok": true}
+{"why": "message at exactly the limit", "content": "{\"action\": \"OFFER\", \"price\": 1, \"message\": \"@@500@@\"}", "pending": false, "ok": true}
+{"why": "non-ASCII text is fine", "content": "{\"action\": \"OFFER\", \"price\": 120, \"message\": \"d\u00e9j\u00e0 vu \u2014 ok\"}", "pending": false, "ok": true}
+{"why": "message one over the limit", "content": "{\"action\": \"OFFER\", \"price\": 1, \"message\": \"@@501@@\"}", "pending": false, "errors": ["MESSAGE_TOO_LONG"]}
+{"why": "code fence (would need repair)", "content": "```json\n{\"action\": \"OFFER\", \"price\": 5, \"message\": \"x\"}\n```", "pending": false, "errors": ["NOT_JSON_OBJECT"]}
+{"why": "text before the JSON", "content": "Sure! {\"action\": \"OFFER\", \"price\": 5, \"message\": \"x\"}", "pending": false, "errors": ["NOT_JSON_OBJECT"]}
+{"why": "text after the JSON", "content": "{\"action\": \"OFFER\", \"price\": 5, \"message\": \"x\"} I hope that works", "pending": false, "errors": ["TEXT_AFTER_JSON"]}
+{"why": "two JSON objects", "content": "{\"action\": \"OFFER\", \"price\": 5, \"message\": \"x\"}{\"action\": \"OFFER\", \"price\": 6, \"message\": \"y\"}", "pending": false, "errors": ["TEXT_AFTER_JSON"]}
+{"why": "broken JSON", "content": "{\"action\": \"OFFER\", \"price\": 5, \"message\": \"x\"", "pending": false, "errors": ["NOT_JSON"]}
+{"why": "a JSON array, not an object", "content": "[\"OFFER\", 5, \"x\"]", "pending": false, "errors": ["NOT_JSON_OBJECT"]}
+{"why": "duplicate key (Python would keep the last silently)", "content": "{\"action\": \"OFFER\", \"price\": 5, \"price\": 999999999, \"message\": \"x\"}", "pending": false, "errors": ["DUPLICATE_KEY"]}
+{"why": "NaN price (Python accepts it by default)", "content": "{\"action\": \"OFFER\", \"price\": NaN, \"message\": \"x\"}", "pending": false, "errors": ["NONFINITE_NUMBER"]}
+{"why": "Infinity price", "content": "{\"action\": \"OFFER\", \"price\": Infinity, \"message\": \"x\"}", "pending": false, "errors": ["NONFINITE_NUMBER"]}
+{"why": "true as a price (Python treats it as 1)", "content": "{\"action\": \"OFFER\", \"price\": true, \"message\": \"x\"}", "pending": false, "errors": ["BAD_PRICE_TYPE"]}
+{"why": "decimal price", "content": "{\"action\": \"OFFER\", \"price\": 94000.0, \"message\": \"x\"}", "pending": false, "errors": ["BAD_PRICE_TYPE"]}
+{"why": "price as text", "content": "{\"action\": \"OFFER\", \"price\": \"94000\", \"message\": \"x\"}", "pending": false, "errors": ["BAD_PRICE_TYPE"]}
+{"why": "price with commas, as text", "content": "{\"action\": \"OFFER\", \"price\": \"94,000\", \"message\": \"x\"}", "pending": false, "errors": ["BAD_PRICE_TYPE"]}
+{"why": "exponent notation is a float in JSON", "content": "{\"action\": \"OFFER\", \"price\": 1e8, \"message\": \"x\"}", "pending": false, "errors": ["BAD_PRICE_TYPE"]}
+{"why": "zero price", "content": "{\"action\": \"OFFER\", \"price\": 0, \"message\": \"x\"}", "pending": false, "errors": ["NONPOSITIVE_PRICE"]}
+{"why": "negative price", "content": "{\"action\": \"OFFER\", \"price\": -5, \"message\": \"x\"}", "pending": false, "errors": ["NONPOSITIVE_PRICE"]}
+{"why": "offer without a price", "content": "{\"action\": \"OFFER\", \"price\": null, \"message\": \"x\"}", "pending": false, "errors": ["PRICE_REQUIRED"]}
+{"why": "accept that names a price", "content": "{\"action\": \"ACCEPT\", \"price\": 100, \"message\": \"x\"}", "pending": true, "errors": ["PRICE_MUST_BE_NULL"]}
+{"why": "walk away that names a price", "content": "{\"action\": \"WALKAWAY\", \"price\": 100, \"message\": \"x\"}", "pending": true, "errors": ["PRICE_MUST_BE_NULL"]}
+{"why": "accept with nothing on the table", "content": "{\"action\": \"ACCEPT\", \"price\": null, \"message\": \"x\"}", "pending": false, "errors": ["ACCEPT_WITHOUT_OFFER"]}
+{"why": "lower-case action", "content": "{\"action\": \"offer\", \"price\": 5, \"message\": \"x\"}", "pending": false, "errors": ["BAD_ACTION"]}
+{"why": "unknown action", "content": "{\"action\": \"COUNTER\", \"price\": 5, \"message\": \"x\"}", "pending": false, "errors": ["BAD_ACTION"]}
+{"why": "missing message", "content": "{\"action\": \"OFFER\", \"price\": 5}", "pending": false, "errors": ["MISSING_FIELD:message"]}
+{"why": "extra field", "content": "{\"action\": \"OFFER\", \"price\": 5, \"message\": \"x\", \"reasoning\": \"...\"}", "pending": false, "errors": ["EXTRA_FIELD:reasoning"]}
+{"why": "message that is not text", "content": "{\"action\": \"OFFER\", \"price\": 5, \"message\": 7}", "pending": false, "errors": ["BAD_MESSAGE_TYPE"]}
+{"why": "empty reply", "content": "", "pending": false, "errors": ["NOT_JSON_OBJECT"]}
+{"why": "cut off at the token cap", "content": "{\"action\": \"OFFER\", \"price\": 5, \"message\": \"x\"}", "finish_reason": "length", "pending": false, "errors": ["TRUNCATED"]}
+{"why": "no content at all", "content": null, "pending": false, "errors": ["NO_CONTENT"]}

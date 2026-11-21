@@ -1,0 +1,368 @@
+{
+ "schema": "addendum_B/1",
+ "run_id": "addB-20261010T191121Z",
+ "label": "registered test (ADDENDUM_B.md)",
+ "registered": true,
+ "holm_family": [
+  "claude-haiku-5.5",
+  "gemini-3.5-flash-lite",
+  "gpt-6-luna"
+ ],
+ "alpha": 0.05,
+ "flips": 200000,
+ "bootstrap": 10000,
+ "per_model": {
+  "gpt-6-luna": {
+   "status": "run",
+   "items_planned": 480,
+   "records": 480,
+   "HA": {
+    "n_fixtures": 30,
+    "n_nonzero": 29,
+    "W_plus": 0,
+    "p_one_sided_unadjusted": 0.0,
+    "mean_h": -0.07571174254704521,
+    "ci95_mean_h": [
+     -0.09241813131564497,
+     -0.05933632535060438
+    ],
+    "fixtures_h_below_0": 29,
+    "h_f": {
+     "F01": -0.07306600955794504,
+     "F02": -0.09139051026172093,
+     "F03": -0.17102220166512486,
+     "F04": -0.006708843159065586,
+     "F05": -0.13493360307085794,
+     "F06": 0.0,
+     "F07": -0.03682659932659932,
+     "F08": -0.07708258204111065,
+     "F09": -0.035569105691056896,
+     "F10": -0.1711924439197167,
+     "F11": -0.04680506074723667,
+     "F12": -0.037569031435853856,
+     "F13": -0.13586956521739127,
+     "F14": -0.06241371375977908,
+     "F15": -0.13265222610213884,
+     "F16": -0.06631138694009714,
+     "F17": -0.037569031435853856,
+     "F18": -0.05211122266845156,
+     "F19": -0.0996017970185828,
+     "F20": -0.04621880706025561,
+     "F21": -0.07706374085684436,
+     "F22": -0.07798609528151351,
+     "F23": -0.06283422459893048,
+     "F24": -0.005730115361262861,
+     "F25": -0.0949367088607595,
+     "F26": -0.11742424242424251,
+     "F27": -0.15651260504201683,
+     "F28": -0.07528735632183908,
+     "F29": -0.03578441504754026,
+     "F30": -0.052879031537568094
+    },
+    "p_holm": 0.0,
+    "supported": true
+   },
+   "by_role_mean_gap": {
+    "seller": {
+     "x1e2": 0.4499523973147031,
+     "x1e8": 0.3449746336887107,
+     "n_fixtures": 30
+    },
+    "buyer": {
+     "x1e2": 0.4281715738137188,
+     "x1e8": 0.38172585234562084,
+     "n_fixtures": 30
+    }
+   },
+   "quality_by_scale": {
+    "x1e2": {
+     "items": 240,
+     "replies": 240,
+     "missing_infrastructure": 0,
+     "valid_offers": 240,
+     "walkaways": 0,
+     "refusals": 0,
+     "invalid_by_error": {},
+     "invalid_or_refused_share": 0.0,
+     "replies_with_reasoning_tokens": 0,
+     "offers_below_own_limit": 0
+    },
+    "x1e8": {
+     "items": 240,
+     "replies": 240,
+     "missing_infrastructure": 0,
+     "valid_offers": 240,
+     "walkaways": 0,
+     "refusals": 0,
+     "invalid_by_error": {},
+     "invalid_or_refused_share": 0.0,
+     "replies_with_reasoning_tokens": 0,
+     "offers_below_own_limit": 0
+    }
+   },
+   "flags": [],
+   "sensitivity_without_reasoning_token_replies": {
+    "n_fixtures": 30,
+    "n_nonzero": 29,
+    "W_plus": 0,
+    "p_one_sided_unadjusted": 0.0,
+    "mean_h": -0.07571174254704521,
+    "ci95_mean_h": [
+     -0.09241813131564497,
+     -0.05933632535060438
+    ],
+    "fixtures_h_below_0": 29
+   },
+   "models_returned": [
+    "openai/gpt-6-luna"
+   ],
+   "model_versions": [
+    "openai/gpt-6-luna-20260922"
+   ],
+   "providers_returned": [
+    "OpenAI"
+   ],
+   "system_fingerprints": [
+    "None"
+   ],
+   "cost_reported": 0.039319
+  },
+  "claude-haiku-5.5": {
+   "status": "run",
+   "items_planned": 480,
+   "records": 480,
+   "HA": {
+    "n_fixtures": 30,
+    "n_nonzero": 30,
+    "W_plus": 0,
+    "p_one_sided_unadjusted": 0.0,
+    "mean_h": -0.12933970315928361,
+    "ci95_mean_h": [
+     -0.1575680913679039,
+     -0.10273889116219322
+    ],
+    "fixtures_h_below_0": 30,
+    "h_f": {
+     "F01": -0.12283452807646356,
+     "F02": -0.06648936170212766,
+     "F03": -0.2453746530989825,
+     "F04": -0.025201612903225812,
+     "F05": -0.11360099595393708,
+     "F06": -0.17586956521739128,
+     "F07": -0.07470538720538722,
+     "F08": -0.17535160476018752,
+     "F09": -0.2648628048780488,
+     "F10": -0.2095631641086186,
+     "F11": -0.06874029414451444,
+     "F12": -0.058411214953271035,
+     "F13": -0.2880434782608695,
+     "F14": -0.04716981132075476,
+     "F15": -0.1905554343081623,
+     "F16": -0.1341068537506746,
+     "F17": -0.04672897196261683,
+     "F18": -0.06135653726015167,
+     "F19": -0.07249336328364309,
+     "F20": -0.060610671535808514,
+     "F21": -0.04845872518286315,
+     "F22": -0.134630727148393,
+     "F23": -0.08957219251336901,
+     "F24": -0.17468629832017812,
+     "F25": -0.23705667693009452,
+     "F26": -0.2287878787878787,
+     "F27": -0.21837682441397605,
+     "F28": -0.09747126436781606,
+     "F29": -0.11859239355105416,
+     "F30": -0.03048780487804878
+    },
+    "p_holm": 0.0,
+    "supported": true
+   },
+   "by_role_mean_gap": {
+    "seller": {
+     "x1e2": 0.8441896966530439,
+     "x1e8": 0.6649496253249242,
+     "n_fixtures": 30
+    },
+    "buyer": {
+     "x1e2": 0.35162120819479853,
+     "x1e8": 0.27218187320435094,
+     "n_fixtures": 30
+    }
+   },
+   "quality_by_scale": {
+    "x1e2": {
+     "items": 240,
+     "replies": 240,
+     "missing_infrastructure": 0,
+     "valid_offers": 240,
+     "walkaways": 0,
+     "refusals": 0,
+     "invalid_by_error": {},
+     "invalid_or_refused_share": 0.0,
+     "replies_with_reasoning_tokens": 0,
+     "offers_below_own_limit": 0
+    },
+    "x1e8": {
+     "items": 240,
+     "replies": 240,
+     "missing_infrastructure": 0,
+     "valid_offers": 240,
+     "walkaways": 0,
+     "refusals": 0,
+     "invalid_by_error": {},
+     "invalid_or_refused_share": 0.0,
+     "replies_with_reasoning_tokens": 0,
+     "offers_below_own_limit": 0
+    }
+   },
+   "flags": [],
+   "sensitivity_without_reasoning_token_replies": {
+    "n_fixtures": 30,
+    "n_nonzero": 30,
+    "W_plus": 0,
+    "p_one_sided_unadjusted": 0.0,
+    "mean_h": -0.12933970315928361,
+    "ci95_mean_h": [
+     -0.1575680913679039,
+     -0.10273889116219322
+    ],
+    "fixtures_h_below_0": 30
+   },
+   "models_returned": [
+    "anthropic/claude-haiku-5.5"
+   ],
+   "model_versions": [
+    "anthropic/claude-haiku-5.5-20261007"
+   ],
+   "providers_returned": [
+    "Anthropic"
+   ],
+   "system_fingerprints": [
+    "None"
+   ],
+   "cost_reported": 0.069409
+  },
+  "gemini-3.5-flash-lite": {
+   "status": "run",
+   "items_planned": 480,
+   "records": 480,
+   "HA": {
+    "n_fixtures": 30,
+    "n_nonzero": 30,
+    "W_plus": 0,
+    "p_one_sided_unadjusted": 0.0,
+    "mean_h": -0.23206141731272514,
+    "ci95_mean_h": [
+     -0.2537210597250693,
+     -0.20932778436459973
+    ],
+    "fixtures_h_below_0": 30,
+    "h_f": {
+     "F01": -0.22992582636399828,
+     "F02": -0.2737596497834682,
+     "F03": -0.31435013876040707,
+     "F04": -0.27604746014089726,
+     "F05": -0.27758325552443197,
+     "F06": -0.25864130434782606,
+     "F07": -0.17613636363636362,
+     "F08": -0.2442976920302921,
+     "F09": -0.21214430894308944,
+     "F10": -0.13946280991735538,
+     "F11": -0.3092399744222161,
+     "F12": -0.168874787595582,
+     "F13": -0.26659038901601834,
+     "F14": -0.27036355269213075,
+     "F15": -0.2552106067219555,
+     "F16": -0.19542633567188347,
+     "F17": -0.12514602803738323,
+     "F18": -0.27108433734939763,
+     "F19": -0.3354732489279151,
+     "F20": -0.32045039561777233,
+     "F21": -0.25235109717868337,
+     "F22": -0.10571005242762715,
+     "F23": -0.18008021390374337,
+     "F24": -0.19005515077919438,
+     "F25": -0.2370566769300947,
+     "F26": -0.09280303030303033,
+     "F27": -0.2681335692171606,
+     "F28": -0.23689655172413793,
+     "F29": -0.2107017362546507,
+     "F30": -0.2678459751630484
+    },
+    "p_holm": 0.0,
+    "supported": true
+   },
+   "by_role_mean_gap": {
+    "seller": {
+     "x1e2": 0.5075419109567751,
+     "x1e8": 0.1630372140575456,
+     "n_fixtures": 30
+    },
+    "buyer": {
+     "x1e2": 0.42807262339209523,
+     "x1e8": 0.30845448566587436,
+     "n_fixtures": 30
+    }
+   },
+   "quality_by_scale": {
+    "x1e2": {
+     "items": 240,
+     "replies": 240,
+     "missing_infrastructure": 0,
+     "valid_offers": 240,
+     "walkaways": 0,
+     "refusals": 0,
+     "invalid_by_error": {},
+     "invalid_or_refused_share": 0.0,
+     "replies_with_reasoning_tokens": 0,
+     "offers_below_own_limit": 0
+    },
+    "x1e8": {
+     "items": 240,
+     "replies": 240,
+     "missing_infrastructure": 0,
+     "valid_offers": 240,
+     "walkaways": 0,
+     "refusals": 0,
+     "invalid_by_error": {},
+     "invalid_or_refused_share": 0.0,
+     "replies_with_reasoning_tokens": 0,
+     "offers_below_own_limit": 0
+    }
+   },
+   "flags": [],
+   "sensitivity_without_reasoning_token_replies": {
+    "n_fixtures": 30,
+    "n_nonzero": 30,
+    "W_plus": 0,
+    "p_one_sided_unadjusted": 0.0,
+    "mean_h": -0.23206141731272514,
+    "ci95_mean_h": [
+     -0.2537210597250693,
+     -0.20932778436459973
+    ],
+    "fixtures_h_below_0": 30
+   },
+   "models_returned": [
+    "google/gemini-3.5-flash-lite"
+   ],
+   "model_versions": [
+    "google/gemini-3.5-flash-lite-20260721"
+   ],
+   "providers_returned": [
+    "Google AI Studio"
+   ],
+   "system_fingerprints": [
+    "None"
+   ],
+   "cost_reported": 0.1406155
+  }
+ },
+ "inputs_sha256": {
+  "run_manifest.json": "420fff179e68cfeb11c1b44e9dc46a2c227df623cacc08d94eafc295b64830a3",
+  "games.jsonl": "dad4eeea4870cb5634e2fd640d5bf03810490fd4ffd7fe8cb37c491756a92898",
+  "calls.jsonl": "66bcbe1fddff19ac48077f57d65106a16800361e466e2498314e72c92d9c4acf",
+  "events.jsonl": "e2d80589fcacf65a5ec397e7befd11ce1eebda1599788fc414b5285562cb5a5d",
+  "run_summary.json": "59a6990cc89d8b10223e0613e933d00926914f6c6cae7c444f1a3a9ae0a11333"
+ }
+}

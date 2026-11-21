@@ -1,0 +1,8 @@
+You are the {{ROLE}}.
+Your private {{LIMIT_NAME}} is {{LIMIT}}. The {{OTHER}} does not know it.
+{{GOAL}}
+
+{{HISTORY}}
+
+This is message {{MSG_NO}} of at most {{MAX_MSGS}}, and it is your turn.
+{{PENDING}}

@@ -1,0 +1,226 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='896' viewBox='0 0 1000 896' role='img' aria-labelledby='t d'><title id='t'>Exploratory map: what changes the effect of multiplying every number by a million</title><desc id='d'>Forest plot. Rows are exploratory cells grouped by question (zone shape and notation, instructions, information, a redesigned game, mixed pairs); columns are the model as seller and as buyer against a scale-proof bot (change in its own share) and self-play (change in the seller&#x27;s share); Gemma 4 31B and Qwen points with 95% intervals.</desc><rect width='1000' height='896' fill='white'/>
+<rect x='760' y='96' width='215' height='644' fill='#FAFAF7'/>
+<rect x='530' y='96' width='215' height='644' fill='#FAFAF7'/>
+<rect x='300' y='96' width='215' height='644' fill='#FAFAF7'/>
+<text x='300.0' y='30.0' font-size='22' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>a</text>
+<text x='324.0' y='30.0' font-size='16' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>model sells to the bot</text>
+<text x='407.5' y='52.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='middle'>change in the model&#x27;s own share</text>
+<text x='530.0' y='30.0' font-size='22' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>b</text>
+<text x='554.0' y='30.0' font-size='16' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>model buys from the bot</text>
+<text x='637.5' y='52.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='middle'>change in the model&#x27;s own share</text>
+<text x='760.0' y='30.0' font-size='22' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>c</text>
+<text x='784.0' y='30.0' font-size='16' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>self-play</text>
+<text x='867.5' y='52.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='middle'>change in the seller&#x27;s share</text>
+<circle cx='30' cy='72' r='5.5' fill='#B36B00'/>
+<text x='42.0' y='77.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#B36B00' font-weight='bold' text-anchor='start'>Gemma 4 31B</text>
+<circle cx='180' cy='72' r='5.5' fill='#2C3E50'/>
+<text x='192.0' y='77.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#2C3E50' font-weight='bold' text-anchor='start'>Qwen3.8 27B</text>
+<text x='20.0' y='118.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>Zone shape and notation (X18, X22)</text>
+<text x='288.0' y='147.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>Study 2 zone, plain digits</text>
+<line x1='364.2' y1='137.0' x2='387.4' y2='137.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='376.0' cy='137.0' r='4.2' fill='#B36B00'/>
+<line x1='383.8' y1='147.0' x2='406.1' y2='147.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='394.7' cy='147.0' r='4.2' fill='#2C3E50'/>
+<line x1='630.5' y1='137.0' x2='654.7' y2='137.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='642.5' cy='137.0' r='4.2' fill='#B36B00'/>
+<line x1='605.6' y1='147.0' x2='641.9' y2='147.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='623.9' cy='147.0' r='4.2' fill='#2C3E50'/>
+<line x1='792.2' y1='137.0' x2='837.8' y2='137.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='813.6' cy='137.0' r='4.2' fill='#B36B00'/>
+<line x1='884.1' y1='147.0' x2='943.5' y2='147.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='913.2' cy='147.0' r='4.2' fill='#2C3E50'/>
+<text x='288.0' y='177.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>Study 2 zone, business notation</text>
+<line x1='378.9' y1='167.0' x2='405.2' y2='167.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='392.2' cy='167.0' r='4.2' fill='#B36B00'/>
+<line x1='422.9' y1='177.0' x2='455.9' y2='177.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='439.4' cy='177.0' r='4.2' fill='#2C3E50'/>
+<line x1='639.5' y1='167.0' x2='663.7' y2='167.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='650.8' cy='167.0' r='4.2' fill='#B36B00'/>
+<line x1='649.1' y1='177.0' x2='681.5' y2='177.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='665.4' cy='177.0' r='4.2' fill='#2C3E50'/>
+<line x1='815.3' y1='167.0' x2='871.5' y2='167.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='843.0' cy='167.0' r='4.2' fill='#B36B00'/>
+<line x1='857.4' y1='177.0' x2='911.3' y2='177.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='883.1' cy='177.0' r='4.2' fill='#2C3E50'/>
+<text x='288.0' y='207.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>narrow zone</text>
+<line x1='380.1' y1='197.0' x2='407.1' y2='197.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='395.1' cy='197.0' r='4.2' fill='#B36B00'/>
+<line x1='361.9' y1='207.0' x2='398.2' y2='207.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='381.0' cy='207.0' r='4.2' fill='#2C3E50'/>
+<line x1='635.6' y1='197.0' x2='670.8' y2='197.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='653.1' cy='197.0' r='4.2' fill='#B36B00'/>
+<line x1='619.3' y1='207.0' x2='654.7' y2='207.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='636.8' cy='207.0' r='4.2' fill='#2C3E50'/>
+<line x1='802.6' y1='197.0' x2='836.2' y2='197.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='819.3' cy='197.0' r='4.2' fill='#B36B00'/>
+<line x1='813.3' y1='207.0' x2='885.8' y2='207.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='849.5' cy='207.0' r='4.2' fill='#2C3E50'/>
+<text x='288.0' y='237.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>wide zone</text>
+<line x1='365.2' y1='227.0' x2='402.5' y2='227.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='388.0' cy='227.0' r='4.2' fill='#B36B00'/>
+<line x1='380.4' y1='237.0' x2='399.8' y2='237.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='389.9' cy='237.0' r='4.2' fill='#2C3E50'/>
+<line x1='643.2' y1='227.0' x2='668.5' y2='227.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='655.6' cy='227.0' r='4.2' fill='#B36B00'/>
+<line x1='650.5' y1='237.0' x2='681.0' y2='237.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='666.5' cy='237.0' r='4.2' fill='#2C3E50'/>
+<line x1='857.6' y1='227.0' x2='886.8' y2='227.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='873.0' cy='227.0' r='4.2' fill='#B36B00'/>
+<line x1='886.0' y1='237.0' x2='942.3' y2='237.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='913.7' cy='237.0' r='4.2' fill='#2C3E50'/>
+<text x='20.0' y='270.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>Instructions to both sides (X20, X21)</text>
+<text x='288.0' y='299.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>none</text>
+<line x1='374.0' y1='289.0' x2='390.2' y2='289.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='382.4' cy='289.0' r='4.2' fill='#B36B00'/>
+<line x1='393.6' y1='299.0' x2='429.1' y2='299.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='409.5' cy='299.0' r='4.2' fill='#2C3E50'/>
+<line x1='628.0' y1='289.0' x2='648.0' y2='289.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='638.4' cy='289.0' r='4.2' fill='#B36B00'/>
+<line x1='614.7' y1='299.0' x2='644.7' y2='299.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='630.2' cy='299.0' r='4.2' fill='#2C3E50'/>
+<text x='650.7' y='304.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>n=29</text>
+<line x1='802.0' y1='289.0' x2='834.2' y2='289.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='818.4' cy='289.0' r='4.2' fill='#B36B00'/>
+<line x1='853.8' y1='299.0' x2='912.6' y2='299.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='883.4' cy='299.0' r='4.2' fill='#2C3E50'/>
+<text x='288.0' y='329.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>“negotiate hard”</text>
+<line x1='305.8' y1='319.0' x2='344.4' y2='319.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='325.7' cy='319.0' r='4.2' fill='#B36B00'/>
+<line x1='370.5' y1='329.0' x2='408.0' y2='329.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='388.4' cy='329.0' r='4.2' fill='#2C3E50'/>
+<line x1='617.1' y1='319.0' x2='639.0' y2='319.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='627.9' cy='319.0' r='4.2' fill='#B36B00'/>
+<line x1='599.4' y1='329.0' x2='625.1' y2='329.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='612.6' cy='329.0' r='4.2' fill='#2C3E50'/>
+<line x1='847.3' y1='319.0' x2='880.2' y2='319.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='863.7' cy='319.0' r='4.2' fill='#B36B00'/>
+<line x1='874.3' y1='329.0' x2='916.9' y2='329.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='895.7' cy='329.0' r='4.2' fill='#2C3E50'/>
+<text x='288.0' y='359.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>“a deal matters more”</text>
+<line x1='404.8' y1='349.0' x2='420.9' y2='349.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='413.4' cy='349.0' r='4.2' fill='#B36B00'/>
+<line x1='409.2' y1='359.0' x2='426.8' y2='359.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='418.0' cy='359.0' r='4.2' fill='#2C3E50'/>
+<line x1='661.8' y1='349.0' x2='676.2' y2='349.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='668.9' cy='349.0' r='4.2' fill='#B36B00'/>
+<line x1='642.0' y1='359.0' x2='662.1' y2='359.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='652.0' cy='359.0' r='4.2' fill='#2C3E50'/>
+<line x1='803.3' y1='349.0' x2='843.5' y2='349.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='823.8' cy='349.0' r='4.2' fill='#B36B00'/>
+<line x1='839.8' y1='359.0' x2='898.1' y2='359.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='869.5' cy='359.0' r='4.2' fill='#2C3E50'/>
+<text x='288.0' y='389.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>“the size of the numbers doesn&#x27;t matter”</text>
+<line x1='367.6' y1='379.0' x2='389.1' y2='379.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='379.0' cy='379.0' r='4.2' fill='#B36B00'/>
+<line x1='378.1' y1='389.0' x2='406.3' y2='389.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='392.6' cy='389.0' r='4.2' fill='#2C3E50'/>
+<line x1='629.8' y1='379.0' x2='653.5' y2='379.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='641.8' cy='379.0' r='4.2' fill='#B36B00'/>
+<line x1='596.9' y1='389.0' x2='645.0' y2='389.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='620.8' cy='389.0' r='4.2' fill='#2C3E50'/>
+<line x1='792.6' y1='379.0' x2='818.3' y2='379.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='805.4' cy='379.0' r='4.2' fill='#B36B00'/>
+<line x1='867.3' y1='389.0' x2='922.3' y2='389.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='895.3' cy='389.0' r='4.2' fill='#2C3E50'/>
+<text x='20.0' y='422.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>Information (X23, X24)</text>
+<text x='288.0' y='451.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>none</text>
+<line x1='370.4' y1='441.0' x2='391.9' y2='441.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='381.8' cy='441.0' r='4.2' fill='#B36B00'/>
+<line x1='396.8' y1='451.0' x2='418.6' y2='451.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='407.7' cy='451.0' r='4.2' fill='#2C3E50'/>
+<line x1='624.9' y1='441.0' x2='646.7' y2='441.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='636.1' cy='441.0' r='4.2' fill='#B36B00'/>
+<line x1='607.5' y1='451.0' x2='647.4' y2='451.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='628.6' cy='451.0' r='4.2' fill='#2C3E50'/>
+<line x1='800.2' y1='441.0' x2='834.7' y2='441.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='817.5' cy='441.0' r='4.2' fill='#B36B00'/>
+<line x1='862.8' y1='451.0' x2='914.4' y2='451.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='888.8' cy='451.0' r='4.2' fill='#2C3E50'/>
+<text x='288.0' y='481.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>a private appraisal</text>
+<line x1='413.5' y1='471.0' x2='425.9' y2='471.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='419.8' cy='471.0' r='4.2' fill='#B36B00'/>
+<line x1='406.3' y1='481.0' x2='422.3' y2='481.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='414.8' cy='481.0' r='4.2' fill='#2C3E50'/>
+<line x1='656.6' y1='471.0' x2='668.6' y2='471.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='662.8' cy='471.0' r='4.2' fill='#B36B00'/>
+<line x1='646.3' y1='481.0' x2='670.1' y2='481.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='657.5' cy='481.0' r='4.2' fill='#2C3E50'/>
+<line x1='877.9' y1='471.0' x2='890.8' y2='471.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='884.4' cy='471.0' r='4.2' fill='#B36B00'/>
+<line x1='859.3' y1='481.0' x2='879.0' y2='481.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='869.2' cy='481.0' r='4.2' fill='#2C3E50'/>
+<text x='288.0' y='511.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>the other side&#x27;s range</text>
+<line x1='434.5' y1='501.0' x2='447.6' y2='501.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='441.1' cy='501.0' r='4.2' fill='#B36B00'/>
+<line x1='424.0' y1='511.0' x2='450.0' y2='511.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='436.6' cy='511.0' r='4.2' fill='#2C3E50'/>
+<line x1='698.6' y1='501.0' x2='722.2' y2='501.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='709.8' cy='501.0' r='4.2' fill='#B36B00'/>
+<line x1='682.6' y1='511.0' x2='708.4' y2='511.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='695.4' cy='511.0' r='4.2' fill='#2C3E50'/>
+<line x1='856.0' y1='501.0' x2='873.6' y2='501.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='864.6' cy='501.0' r='4.2' fill='#B36B00'/>
+<line x1='854.7' y1='511.0' x2='905.9' y2='511.0' stroke='#2C3E50' stroke-width='2.2'/>
+<circle cx='877.6' cy='511.0' r='4.2' fill='#2C3E50'/>
+<text x='20.0' y='544.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>Redesigned game (X17; Gemma only)</text>
+<text x='288.0' y='573.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>wide, off-centre zones</text>
+<line x1='312.5' y1='563.0' x2='359.2' y2='563.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='335.9' cy='563.0' r='4.2' fill='#B36B00'/>
+<text x='365.2' y='568.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>n=28</text>
+<line x1='641.8' y1='563.0' x2='666.1' y2='563.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='654.5' cy='563.0' r='4.2' fill='#B36B00'/>
+<text x='672.1' y='568.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>n=28</text>
+<line x1='882.6' y1='563.0' x2='931.0' y2='563.0' stroke='#B36B00' stroke-width='2.2'/>
+<circle cx='907.5' cy='563.0' r='4.2' fill='#B36B00'/>
+<text x='20.0' y='606.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>Mixed pairs, Study 2 zone (X19)</text>
+<text x='288.0' y='635.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>Gemma sells to Gemma</text>
+<line x1='798.8' y1='630.0' x2='836.2' y2='630.0' stroke='#B36B00' stroke-width='2.2'/>
+<rect x='812.9' y='625.5' width='9' height='9' fill='#B36B00'/>
+<text x='288.0' y='665.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>Qwen sells to Qwen</text>
+<line x1='865.1' y1='660.0' x2='932.1' y2='660.0' stroke='#2C3E50' stroke-width='2.2'/>
+<rect x='893.8' y='655.5' width='9' height='9' fill='#2C3E50'/>
+<text x='288.0' y='695.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>Gemma sells to Qwen</text>
+<line x1='823.4' y1='690.0' x2='882.5' y2='690.0' stroke='#B36B00' stroke-width='2.2'/>
+<rect x='848.0' y='685.5' width='9' height='9' fill='#B36B00'/>
+<text x='288.0' y='725.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>Qwen sells to Gemma</text>
+<line x1='856.8' y1='720.0' x2='904.9' y2='720.0' stroke='#2C3E50' stroke-width='2.2'/>
+<rect x='876.0' y='715.5' width='9' height='9' fill='#2C3E50'/>
+<line x1='436.8' y1='96.0' x2='436.8' y2='740.0' stroke='#6B6B6B' stroke-width='1.2' stroke-dasharray='4 3'/>
+<line x1='300.0' y1='740.0' x2='515.0' y2='740.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<line x1='319.5' y1='740.0' x2='319.5' y2='746.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<line x1='358.6' y1='740.0' x2='358.6' y2='746.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='358.6' y='764.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>-0.2</text>
+<line x1='397.7' y1='740.0' x2='397.7' y2='746.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<line x1='436.8' y1='740.0' x2='436.8' y2='746.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='436.8' y='764.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>0</text>
+<line x1='475.9' y1='740.0' x2='475.9' y2='746.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='475.9' y='764.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>+0.1</text>
+<line x1='515.0' y1='740.0' x2='515.0' y2='746.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<line x1='666.8' y1='96.0' x2='666.8' y2='740.0' stroke='#6B6B6B' stroke-width='1.2' stroke-dasharray='4 3'/>
+<line x1='530.0' y1='740.0' x2='745.0' y2='740.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<line x1='549.5' y1='740.0' x2='549.5' y2='746.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<line x1='588.6' y1='740.0' x2='588.6' y2='746.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='588.6' y='764.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>-0.2</text>
+<line x1='627.7' y1='740.0' x2='627.7' y2='746.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<line x1='666.8' y1='740.0' x2='666.8' y2='746.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='666.8' y='764.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>0</text>
+<line x1='705.9' y1='740.0' x2='705.9' y2='746.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='705.9' y='764.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>+0.1</text>
+<line x1='745.0' y1='740.0' x2='745.0' y2='746.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<line x1='896.8' y1='96.0' x2='896.8' y2='740.0' stroke='#6B6B6B' stroke-width='1.2' stroke-dasharray='4 3'/>
+<line x1='760.0' y1='740.0' x2='975.0' y2='740.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<line x1='779.5' y1='740.0' x2='779.5' y2='746.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<line x1='818.6' y1='740.0' x2='818.6' y2='746.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='818.6' y='764.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>-0.2</text>
+<line x1='857.7' y1='740.0' x2='857.7' y2='746.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<line x1='896.8' y1='740.0' x2='896.8' y2='746.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='896.8' y='764.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>0</text>
+<line x1='935.9' y1='740.0' x2='935.9' y2='746.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='935.9' y='764.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>+0.1</text>
+<line x1='975.0' y1='740.0' x2='975.0' y2='746.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='300.0' y='788.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>← worse for the model at ×10⁶ (a, b) / for the seller (c)</text>
+<text x='20.0' y='816.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>Points: mean ×10⁶ − ×1 change per fixture, bars: 95% CI; fresh fixtures, n = 30 unless marked. All exploratory.</text>
+<text x='20.0' y='836.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>The bot&#x27;s moves are ratios of its own limit, so at ×10⁶ they are its ×1 moves with six zeros appended.</text>
+<text x='20.0' y='856.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>Squares in (c): mixed pairs, coloured by the seller&#x27;s model.</text>
+<text x='20.0' y='876.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>X17 (redesigned game) excludes the games with a comma slip in a price (n = 28).</text>
+</svg>

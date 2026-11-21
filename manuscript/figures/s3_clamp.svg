@@ -1,0 +1,107 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='712' viewBox='0 0 1000 712' role='img' aria-labelledby='t d'><title id='t'>Study 3 opening-clamp decomposition in A0 (registered P2 and P3)</title><desc id='d'>Source: derived/study3/study3.json per_model.P2.A0 (mean, ci90), P3.omega_mean, P3.delta_m_mean, P3.P3a_kappa (mean, ci90) and P3.P3b_omega_minus_delta_m.equivalent_within_0.05. omega and delta_m have no separate CI in the analysis; their difference is P3b.</desc><rect width='1000' height='712' fill='white'/>
+<rect x='740.0' y='96.0' width='120.0' height='468.0' fill='#E3EBDD'/>
+<text x='20.0' y='28.0' font-size='20' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>Where the A0 shift enters: the opening clamp</text>
+<text x='270.0' y='62.0' font-size='18' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>a  Natural shift and opening channel</text>
+<text x='660.0' y='62.0' font-size='18' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>b  Concession channel κ</text>
+<line x1='270.0' y1='96.0' x2='270.0' y2='564.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='270.0' y1='564.0' x2='270.0' y2='569.0' stroke='#0F0F0F' stroke-width='1'/>
+<text x='270.0' y='589.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>−0.4</text>
+<line x1='336.0' y1='96.0' x2='336.0' y2='564.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='336.0' y1='564.0' x2='336.0' y2='569.0' stroke='#0F0F0F' stroke-width='1'/>
+<text x='336.0' y='589.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>−0.3</text>
+<line x1='402.0' y1='96.0' x2='402.0' y2='564.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='402.0' y1='564.0' x2='402.0' y2='569.0' stroke='#0F0F0F' stroke-width='1'/>
+<text x='402.0' y='589.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>−0.2</text>
+<line x1='468.0' y1='96.0' x2='468.0' y2='564.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='468.0' y1='564.0' x2='468.0' y2='569.0' stroke='#0F0F0F' stroke-width='1'/>
+<text x='468.0' y='589.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>−0.1</text>
+<line x1='534.0' y1='96.0' x2='534.0' y2='564.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='534.0' y1='564.0' x2='534.0' y2='569.0' stroke='#0F0F0F' stroke-width='1'/>
+<text x='534.0' y='589.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>0</text>
+<line x1='600.0' y1='96.0' x2='600.0' y2='564.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='600.0' y1='564.0' x2='600.0' y2='569.0' stroke='#0F0F0F' stroke-width='1'/>
+<text x='600.0' y='589.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>0.1</text>
+<line x1='270.0' y1='564.0' x2='600.0' y2='564.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<line x1='680.0' y1='96.0' x2='680.0' y2='564.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='680.0' y1='564.0' x2='680.0' y2='569.0' stroke='#0F0F0F' stroke-width='1'/>
+<text x='680.0' y='589.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>−0.1</text>
+<line x1='740.0' y1='96.0' x2='740.0' y2='564.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='740.0' y1='564.0' x2='740.0' y2='569.0' stroke='#0F0F0F' stroke-width='1'/>
+<text x='740.0' y='589.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>−0.05</text>
+<line x1='800.0' y1='96.0' x2='800.0' y2='564.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='800.0' y1='564.0' x2='800.0' y2='569.0' stroke='#0F0F0F' stroke-width='1'/>
+<text x='800.0' y='589.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>0</text>
+<line x1='860.0' y1='96.0' x2='860.0' y2='564.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='860.0' y1='564.0' x2='860.0' y2='569.0' stroke='#0F0F0F' stroke-width='1'/>
+<text x='860.0' y='589.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>0.05</text>
+<line x1='920.0' y1='96.0' x2='920.0' y2='564.0' stroke='#EEF1F4' stroke-width='1'/>
+<line x1='920.0' y1='564.0' x2='920.0' y2='569.0' stroke='#0F0F0F' stroke-width='1'/>
+<text x='920.0' y='589.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>0.1</text>
+<line x1='680.0' y1='564.0' x2='920.0' y2='564.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<line x1='534.0' y1='96.0' x2='534.0' y2='564.0' stroke='#6B6B6B' stroke-width='1.1' stroke-dasharray='4 3'/>
+<line x1='800.0' y1='96.0' x2='800.0' y2='564.0' stroke='#6B6B6B' stroke-width='1.1' stroke-dasharray='4 3'/>
+<text x='20.0' y='136.0' font-size='18' font-family="Helvetica, Arial, sans-serif" fill='#B36B00' font-weight='bold' text-anchor='start'>Gemma 4 31B</text>
+<text x='258.0' y='112.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end' font-style='italic'>d</text>
+<text x='258.0' y='136.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end' font-style='italic'>ω</text>
+<text x='258.0' y='160.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>Δm</text>
+<line x1='361.7' y1='106.0' x2='392.0' y2='106.0' stroke='#B36B00' stroke-width='5'/>
+<circle cx='376.9' cy='106.0' r='5.5' fill='#B36B00' stroke='#B36B00' stroke-width='2'/>
+<circle cx='375.6' cy='130.0' r='5.5' fill='white' stroke='#B36B00' stroke-width='2'/>
+<line x1='362.3' y1='154.0' x2='372.3' y2='154.0' stroke='#6B6B6B' stroke-width='2'/><line x1='367.3' y1='149.0' x2='367.3' y2='159.0' stroke='#6B6B6B' stroke-width='2'/>
+<line x1='759.3' y1='130.0' x2='775.2' y2='130.0' stroke='#B36B00' stroke-width='5'/>
+<circle cx='767.3' cy='130.0' r='5.5' fill='#B36B00' stroke='#B36B00' stroke-width='2'/>
+<text x='990.0' y='136.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#B36B00' font-weight='bold' text-anchor='end'>−0.027</text>
+<line x1='20.0' y1='185.0' x2='990.0' y2='185.0' stroke='#EEF1F4' stroke-width='1'/>
+<text x='20.0' y='234.0' font-size='18' font-family="Helvetica, Arial, sans-serif" fill='#2C3E50' font-weight='bold' text-anchor='start'>Qwen3.8 27B</text>
+<text x='258.0' y='210.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end' font-style='italic'>d</text>
+<text x='258.0' y='234.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end' font-style='italic'>ω</text>
+<text x='258.0' y='258.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>Δm</text>
+<line x1='534.7' y1='204.0' x2='572.1' y2='204.0' stroke='#2C3E50' stroke-width='5'/>
+<circle cx='553.4' cy='204.0' r='5.5' fill='#2C3E50' stroke='#2C3E50' stroke-width='2'/>
+<circle cx='523.3' cy='228.0' r='5.5' fill='white' stroke='#2C3E50' stroke-width='2'/>
+<line x1='533.5' y1='252.0' x2='543.5' y2='252.0' stroke='#6B6B6B' stroke-width='2'/><line x1='538.5' y1='247.0' x2='538.5' y2='257.0' stroke='#6B6B6B' stroke-width='2'/>
+<line x1='792.2' y1='228.0' x2='806.7' y2='228.0' stroke='#2C3E50' stroke-width='5'/>
+<circle cx='799.3' cy='228.0' r='5.5' fill='#2C3E50' stroke='#2C3E50' stroke-width='2'/>
+<text x='990.0' y='234.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#2C3E50' font-weight='bold' text-anchor='end'>−0.001</text>
+<line x1='20.0' y1='283.0' x2='990.0' y2='283.0' stroke='#EEF1F4' stroke-width='1'/>
+<text x='20.0' y='332.0' font-size='18' font-family="Helvetica, Arial, sans-serif" fill='#4F6B3A' font-weight='bold' text-anchor='start'>gpt-6-luna</text>
+<text x='258.0' y='308.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end' font-style='italic'>d</text>
+<text x='258.0' y='332.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end' font-style='italic'>ω</text>
+<text x='258.0' y='356.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>Δm</text>
+<line x1='437.1' y1='302.0' x2='460.0' y2='302.0' stroke='#4F6B3A' stroke-width='5'/>
+<rect x='443.7' y='297.1' width='9.9' height='9.9' fill='#87A96B' stroke='#4F6B3A' stroke-width='2'/>
+<rect x='467.5' y='321.1' width='9.9' height='9.9' fill='white' stroke='#4F6B3A' stroke-width='2'/>
+<line x1='460.0' y1='350.0' x2='470.0' y2='350.0' stroke='#6B6B6B' stroke-width='2'/><line x1='465.0' y1='345.0' x2='465.0' y2='355.0' stroke='#6B6B6B' stroke-width='2'/>
+<line x1='753.7' y1='326.0' x2='769.0' y2='326.0' stroke='#4F6B3A' stroke-width='5'/>
+<rect x='756.4' y='321.1' width='9.9' height='9.9' fill='#87A96B' stroke='#4F6B3A' stroke-width='2'/>
+<text x='990.0' y='332.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#4F6B3A' font-weight='bold' text-anchor='end'>−0.032</text>
+<line x1='20.0' y1='381.0' x2='990.0' y2='381.0' stroke='#EEF1F4' stroke-width='1'/>
+<text x='20.0' y='430.0' font-size='18' font-family="Helvetica, Arial, sans-serif" fill='#4F6B3A' font-weight='bold' text-anchor='start'>claude-haiku-5.5</text>
+<text x='258.0' y='406.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end' font-style='italic'>d</text>
+<text x='258.0' y='430.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end' font-style='italic'>ω</text>
+<text x='258.0' y='454.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>Δm</text>
+<line x1='482.9' y1='400.0' x2='516.9' y2='400.0' stroke='#4F6B3A' stroke-width='5'/>
+<polygon points='500.2,393.1 507.1,400.0 500.2,406.9 493.4,400.0' fill='#87A96B' stroke='#4F6B3A' stroke-width='2'/>
+<polygon points='544.4,417.1 551.3,424.0 544.4,430.9 537.6,424.0' fill='white' stroke='#4F6B3A' stroke-width='2'/>
+<line x1='514.1' y1='448.0' x2='524.1' y2='448.0' stroke='#6B6B6B' stroke-width='2'/><line x1='519.1' y1='443.0' x2='519.1' y2='453.0' stroke='#6B6B6B' stroke-width='2'/>
+<line x1='735.3' y1='424.0' x2='758.6' y2='424.0' stroke='#4F6B3A' stroke-width='5'/>
+<polygon points='746.9,417.1 753.8,424.0 746.9,430.9 740.0,424.0' fill='#87A96B' stroke='#4F6B3A' stroke-width='2'/>
+<text x='990.0' y='430.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#4F6B3A' font-weight='bold' text-anchor='end'>−0.044</text>
+<line x1='20.0' y1='479.0' x2='990.0' y2='479.0' stroke='#EEF1F4' stroke-width='1'/>
+<text x='20.0' y='528.0' font-size='18' font-family="Helvetica, Arial, sans-serif" fill='#4F6B3A' font-weight='bold' text-anchor='start'>gemini-3.5-flash-lite</text>
+<text x='258.0' y='504.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end' font-style='italic'>d</text>
+<text x='258.0' y='528.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end' font-style='italic'>ω</text>
+<text x='258.0' y='552.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>Δm</text>
+<line x1='305.8' y1='498.0' x2='372.1' y2='498.0' stroke='#4F6B3A' stroke-width='5'/>
+<polygon points='339.6,490.9 346.3,502.4 332.9,502.4' fill='#87A96B' stroke='#4F6B3A' stroke-width='2'/>
+<polygon points='309.8,514.9 316.5,526.4 303.1,526.4' fill='white' stroke='#4F6B3A' stroke-width='2'/>
+<line x1='325.6' y1='546.0' x2='335.6' y2='546.0' stroke='#6B6B6B' stroke-width='2'/><line x1='330.6' y1='541.0' x2='330.6' y2='551.0' stroke='#6B6B6B' stroke-width='2'/>
+<line x1='798.1' y1='522.0' x2='814.5' y2='522.0' stroke='#4F6B3A' stroke-width='5'/>
+<polygon points='806.5,514.9 813.2,526.4 799.8,526.4' fill='#87A96B' stroke='#4F6B3A' stroke-width='2'/>
+<text x='990.0' y='528.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#4F6B3A' font-weight='bold' text-anchor='end'>+0.005</text>
+<text x='435.0' y='616.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>change from $100 to $100M (surplus units)</text>
+<text x='800.0' y='616.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>band: ±0.05 (P3a)</text>
+<text x='20.0' y='648.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>d: closing shift in the A0 games (P2), 90% CI.  ω (open marker): opening channel, both openings clamped,</text>
+<text x='20.0' y='672.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>opening scale moved.  +: scripted midpoint shift Δm.  κ: concession channel, opening fixed, game scale moved;</text>
+<text x='20.0' y='696.0' font-size='17' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>90% CI; κ&#x27;s CI leaves ±0.05 only for claude-haiku-5.5.  ω − Δm within ±0.05 on all five (P3b).  40 fixtures per model.</text>
+</svg>

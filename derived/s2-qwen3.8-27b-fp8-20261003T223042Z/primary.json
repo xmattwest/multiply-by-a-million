@@ -1,0 +1,324 @@
+{
+ "schema": "primary/1",
+ "model": "qwen3.8-27b-fp8",
+ "run_id": "s2-qwen3.8-27b-fp8-20261003T223042Z",
+ "games_scored": 180,
+ "games_missing": [],
+ "fixtures": 30,
+ "fixtures_in_test": 29,
+ "fixtures_left_out": 1,
+ "fixtures_using_both_openers": 25,
+ "d_i": {
+  "F01": {
+   "num": -5,
+   "den": 86,
+   "float": -0.05813953488372093
+  },
+  "F02": {
+   "num": 11,
+   "den": 38,
+   "float": 0.2894736842105263
+  },
+  "F03": {
+   "num": -3,
+   "den": 56,
+   "float": -0.05357142857142857
+  },
+  "F04": {
+   "num": 1,
+   "den": 74,
+   "float": 0.013513513513513514
+  },
+  "F05": {
+   "num": -1,
+   "den": 152,
+   "float": -0.006578947368421052
+  },
+  "F06": {
+   "num": 25,
+   "den": 132,
+   "float": 0.1893939393939394
+  },
+  "F07": {
+   "num": -1,
+   "den": 4,
+   "float": -0.25
+  },
+  "F08": {
+   "num": -137,
+   "den": 960,
+   "float": -0.14270833333333333
+  },
+  "F09": {
+   "num": -1,
+   "den": 43,
+   "float": -0.023255813953488372
+  },
+  "F10": {
+   "num": 41,
+   "den": 88,
+   "float": 0.4659090909090909
+  },
+  "F11": {
+   "num": 5,
+   "den": 34,
+   "float": 0.14705882352941177
+  },
+  "F12": {
+   "num": -15,
+   "den": 38,
+   "float": -0.39473684210526316
+  },
+  "F13": {
+   "num": -5,
+   "den": 16,
+   "float": -0.3125
+  },
+  "F14": {
+   "num": 7,
+   "den": 96,
+   "float": 0.07291666666666667
+  },
+  "F15": {
+   "num": -15,
+   "den": 37,
+   "float": -0.40540540540540543
+  },
+  "F16": {
+   "num": -7,
+   "den": 96,
+   "float": -0.07291666666666667
+  },
+  "F17": {
+   "num": -29,
+   "den": 76,
+   "float": -0.3815789473684211
+  },
+  "F18": {
+   "num": -13,
+   "den": 50,
+   "float": -0.26
+  },
+  "F19": {
+   "num": -1,
+   "den": 28,
+   "float": -0.03571428571428571
+  },
+  "F21": {
+   "num": -1,
+   "den": 46,
+   "float": -0.021739130434782608
+  },
+  "F22": {
+   "num": -16,
+   "den": 125,
+   "float": -0.128
+  },
+  "F23": {
+   "num": 7,
+   "den": 100,
+   "float": 0.07
+  },
+  "F24": {
+   "num": 9,
+   "den": 82,
+   "float": 0.10975609756097561
+  },
+  "F25": {
+   "num": 25,
+   "den": 64,
+   "float": 0.390625
+  },
+  "F26": {
+   "num": 8,
+   "den": 35,
+   "float": 0.22857142857142856
+  },
+  "F27": {
+   "num": 85,
+   "den": 86,
+   "float": 0.9883720930232558
+  },
+  "F28": {
+   "num": 1,
+   "den": 76,
+   "float": 0.013157894736842105
+  },
+  "F29": {
+   "num": -11,
+   "den": 48,
+   "float": -0.22916666666666666
+  },
+  "F30": {
+   "num": 3,
+   "den": 64,
+   "float": 0.046875
+  }
+ },
+ "mean_d": 0.008607283780819553,
+ "median_d": -0.021739130434782608,
+ "sd_d": 0.2902854670083167,
+ "H1": {
+  "p_unadjusted": 0.738415,
+  "W_plus": 201.5,
+  "n_nonzero": 29,
+  "flips": 200000,
+  "seed": 2536636171,
+  "holm": "pending: applied across models with --holm"
+ },
+ "bootstrap": {
+  "ci95_mean": [
+   -0.08754049334670254,
+   0.11569743125573713
+  ],
+  "ci90_mean": [
+   -0.07434231423313695,
+   0.09895350799529082
+  ],
+  "resamples": 10000,
+  "seed": 1197423523
+ },
+ "H2_equivalent_within_0.10": true,
+ "terminals_by_scale": {
+  "x1e2": {
+   "AGREEMENT": 59,
+   "WALKAWAY": 1
+  },
+  "x1e5": {
+   "AGREEMENT": 60
+  },
+  "x1e8": {
+   "AGREEMENT": 55,
+   "WALKAWAY": 5
+  }
+ },
+ "inputs_sha256": {
+  "data/runs/s2-qwen3.8-27b-fp8-20261003T223042Z/run_manifest.json": "418d1a6134afd3dfc09040b61556550c3c1848e2dfd5303043aa65c3b4e3baba",
+  "data/runs/s2-qwen3.8-27b-fp8-20261003T223042Z/games.jsonl": "c41124b615603d6cbd745614bb1fdd020e5e503e40487d599638a454f84c6091",
+  "data/runs/s2-qwen3.8-27b-fp8-20261003T223042Z/run_summary.json": "ed01f296c494dae6e64a9312a07a401d6a90a18ee1316aa669353507676e1d0c",
+  "data/pilot/s2-pilot-qwen3.8-27b-fp8-20261003T220356Z/games.jsonl": "5428c2b6d84ebc3594ce752ac62b635cf2e4438bc2771a4a987f1df5f3d2bfcd"
+ },
+ "pilot_sigma": {
+  "run_id": "s2-pilot-qwen3.8-27b-fp8-20261003T220356Z",
+  "fixtures_with_d": 15,
+  "sd_d": 0.2873541974011231,
+  "note": "amendment A1: reported only; the design is fixed"
+ },
+ "secondary": {
+  "S1a_100K_vs_100": {
+   "n": 30,
+   "n_nonzero": 28,
+   "mean": 0.07639180872792654,
+   "median": 0.031177606177606176,
+   "p_unadjusted": 0.066545,
+   "W_plus": 283.5,
+   "p_holm": 0.39927
+  },
+  "S1b_100M_vs_100K": {
+   "n": 30,
+   "n_nonzero": 30,
+   "mean": -0.05515120497204532,
+   "median": -0.06196450428396573,
+   "p_unadjusted": 0.158015,
+   "W_plus": 163.0,
+   "p_holm": 0.56605
+  },
+  "S2_agreements": {
+   "n": 30,
+   "n_nonzero": 4,
+   "mean": -0.13333333333333333,
+   "median": 0.0,
+   "p_unadjusted": 0.125665,
+   "W_plus": 0,
+   "p_holm": 0.56605
+  },
+  "S3_opener_disagreement": {
+   "n": 25,
+   "n_nonzero": 25,
+   "mean": 0.08758813452422982,
+   "median": 0.13636363636363635,
+   "p_unadjusted": 0.11321,
+   "W_plus": 222.0,
+   "p_holm": 0.56605
+  },
+  "S3_sd_across_fixtures": {
+   "sd_100": 0.15687212582674062,
+   "sd_100M": 0.24161461503556309,
+   "diff_ci95": [
+    -0.006451527176281446,
+    0.18011463399019736
+   ]
+  },
+  "S4_opening_offer": {
+   "n": 30,
+   "n_nonzero": 30,
+   "mean": 0.11779314671319606,
+   "median": 0.10643115942028986,
+   "p_unadjusted": 0.0378,
+   "W_plus": 333.0,
+   "p_holm": 0.2646
+  },
+  "S5_coarse_price": {
+   "n": 29,
+   "n_nonzero": 29,
+   "mean": 0.011484643113238682,
+   "median": -0.021739130434782608,
+   "p_unadjusted": 0.81866,
+   "W_plus": 206.5,
+   "p_holm": 1.0
+  },
+  "S6_seller_utility": {
+   "n": 30,
+   "n_nonzero": 30,
+   "mean": -0.014019151964929559,
+   "median": -0.02249747219413549,
+   "p_unadjusted": 0.60235,
+   "W_plus": 206.5,
+   "p_holm": 1.0
+  },
+  "holm_family": [
+   "S1a_100K_vs_100",
+   "S1b_100M_vs_100K",
+   "S2_agreements",
+   "S3_opener_disagreement",
+   "S4_opening_offer",
+   "S5_coarse_price",
+   "S6_seller_utility"
+  ]
+ },
+ "addendum_A": {
+  "model": "qwen3.8-27b-fp8",
+  "HA": {
+   "n_fixtures": 30,
+   "n_nonzero": 30,
+   "W_plus": 0,
+   "p_one_sided_unadjusted": 0.0,
+   "mean_h": -0.13056382548042653,
+   "ci95_mean_h": [
+    -0.15551841479129858,
+    -0.1059315515795705
+   ],
+   "fixtures_h_below_0": 30,
+   "by_opener_mean_gap": {
+    "seller": {
+     "x1e2": 0.24510472941786757,
+     "x1e8": 0.12726646154218602,
+     "n": 30
+    },
+    "buyer": {
+     "x1e2": 0.36625514991098934,
+     "x1e8": 0.22296576682581787,
+     "n": 30
+    }
+   }
+  },
+  "HB": {
+   "n_fixtures": 25,
+   "n_nonzero": 25,
+   "W_plus": 43.0,
+   "p_two_sided_unadjusted": 0.00072,
+   "mean_I": -0.3313290856334666
+  },
+  "note": "Holm across the Gemma models is applied over both models' results (ADDENDUM_A.md \u00a73)."
+ }
+}

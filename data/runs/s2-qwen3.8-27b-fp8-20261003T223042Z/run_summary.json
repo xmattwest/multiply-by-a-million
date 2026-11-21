@@ -1,0 +1,17 @@
+{
+ "schema": "run_summary/1",
+ "t": "2026-10-03T23:18:53.642Z",
+ "counts": {
+  "games": 180,
+  "voided": 0,
+  "replies": 1215,
+  "invalid": 0,
+  "reasoning": 0
+ },
+ "sha256": {
+  "run_manifest.json": "418d1a6134afd3dfc09040b61556550c3c1848e2dfd5303043aa65c3b4e3baba",
+  "calls.jsonl": "51572d75a2d52921b954bf1e8d55cf304e38ae6f530c9789aad04cff0389ed3a",
+  "games.jsonl": "c41124b615603d6cbd745614bb1fdd020e5e503e40487d599638a454f84c6091",
+  "events.jsonl": "b6712c47e8e5509147aba4b892b8313ce8d3cb4d410c45704c1aa3a87c355933"
+ }
+}

@@ -1,0 +1,4 @@
+{
+ "total_usd": 100.00,
+ "about": "Project spending cap checked by scripts/launch_pod.sh (worst case of each launch + everything in logs/budget.tsv). Raised from 15 to 100 by the user on 2026-10-03."
+}

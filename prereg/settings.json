@@ -1,0 +1,23 @@
+{
+ "about": "Run settings the pre-registration freezes. status 'approved 2026-10-02' = Claude's recommendation, approved by the user (prereg/PREREGISTRATION.md section 0); 'design' = set by the user's original design. Nothing here is final until the pre-registration commit.",
+ "max_messages": {"value": 16, "status": "design"},
+ "max_message_chars": {"value": 500, "status": "approved 2026-10-02", "why": "C15: a 1,000-character message plus JSON can exceed a 256-token reply cap, more often at large scales"},
+ "max_tokens": {"value": 512, "status": "approved 2026-10-02", "why": "C15: room for a 500-character message at every scale; measured in Phase 7b"},
+ "thinking": {"value": "off", "status": "design", "how": "chat_template_kwargs {\"enable_thinking\": false} for both families; verified on the rendered prompt in Phase 7b"},
+ "presence_penalty": {"value": 0, "status": "design"},
+ "frequency_penalty": {"value": 0, "status": "approved 2026-10-02"},
+ "repetition_penalty": {"value": 1.0, "status": "approved 2026-10-02"},
+ "sampling": {
+  "status": "approved 2026-10-02",
+  "why": "C1/C2 option (a): each family's published non-thinking values, except presence_penalty 0 (design)",
+  "qwen3.8-27b-fp8": {"temperature": 0.7, "top_p": 0.8, "top_k": 20, "min_p": 0.0},
+  "gemma-4-12b-it": {"temperature": 1.0, "top_p": 0.95, "top_k": 64, "min_p": 0.0},
+  "gemma-4-31b-it": {"temperature": 1.0, "top_p": 0.95, "top_k": 64, "min_p": 0.0},
+  "mistral-small-24b-it": {"temperature": 0.15, "top_p": 1.0, "top_k": -1, "min_p": 0.0},
+  "phi-4-14b": {"temperature": 0.3, "top_p": 1.0, "top_k": -1, "min_p": 0.0},
+  "amendment_2026_10_04": "WP2d (prereg/AMENDMENT_WP2d.md): Mistral-Small-24B uses its card's T 0.15; phi-4 publishes no sampling recipe, so T 0.3 (low but non-zero, so a retry after an invalid reply can differ). top_p 1.0 / top_k -1 = off. Study 1/2 values unchanged."
+ },
+ "seed": {"status": "approved 2026-10-02", "rule": "E5: first 8 hex digits of SHA256('scale-invariance/call-seed/v1|<fixture>|<opener>|<msg_no>|<attempt>') as an integer; the same for all three scales"},
+ "response_format": {"status": "approved 2026-10-02", "value": "json_schema strict: action enum, price integer>=1 or null, message string maxLength = max_message_chars, additionalProperties false"},
+ "messages_layout": {"status": "approved 2026-10-02", "value": "one system message (prereg/prompts/system.txt) + one user message (user.txt, fragments.txt), rebuilt from scratch every call"}
+}

@@ -1,0 +1,20 @@
+# fragments.txt: the role- and state-dependent pieces (new-game probe, copied from Study 2;
+# prices arrive already formatted, e.g. $243,700,000 or $243.70). [reference] goes in the system message.
+# A line "[name]" starts a fragment; it runs to the next "[name]" line.
+# Lines starting with "#" are comments. Placeholders look like {{NAME}}.
+[goal_seller]
+Your goal is to sell at the highest price you can get. Any deal at or above your floor is better for you than no deal.
+[goal_buyer]
+Your goal is to buy at the lowest price you can get. Any deal at or below your ceiling is better for you than no deal.
+[history_empty]
+No messages have been sent yet. You make the first move.
+[history_head]
+The negotiation so far:
+[history_line]
+Message {{N}}, {{WHO}}: OFFER at {{PRICE}}, with the message {{TEXT}}
+[pending_offer]
+The {{OTHER}}'s current offer is {{PRICE}}. You may ACCEPT it, make a new OFFER, or WALKAWAY.
+[pending_none]
+The {{OTHER}} has no offer on the table, so you cannot ACCEPT yet. You may make an OFFER or WALKAWAY.
+[reference]
+- Both sides have seen the same independent appraisal. It values the lot at {{R}}.

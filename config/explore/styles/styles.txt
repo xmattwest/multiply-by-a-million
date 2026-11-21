@@ -1,0 +1,9 @@
+# styles.txt (prompt-style probe, Q14, 2026-10-04): one extra paragraph added to a side's private
+# instructions, right after its goal. Style N adds nothing (the prompt is then exactly new-game v2).
+# A line "[name]" starts a fragment; it runs to the next "[name]" line. Lines starting with "#" are comments.
+[style_a]
+Negotiate hard. Open ambitiously and give ground slowly: a better price is worth a longer negotiation.
+[style_c]
+Reaching a deal matters more to you than getting the best possible price. Open at a reasonable price and be willing to meet the other side.
+[style_d]
+The size of the numbers does not change what good negotiating looks like. Negotiate exactly as you would if every amount were a thousand times smaller or a thousand times larger.

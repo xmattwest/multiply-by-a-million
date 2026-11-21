@@ -1,0 +1,10 @@
+# info.txt (asymmetric-information probe, Q17, 2026-10-04): private information added to ONE side's
+# instructions, right after its goal (and after any style paragraph). The other side's prompt is
+# unchanged, and the shared system message never mentions it, so the uninformed side doesn't know the
+# other side knows more. A line "[name]" starts a fragment; lines starting with "#" are comments.
+[info_a]
+You have also seen an independent appraisal of the lot. It values the lot at {{R}}. The {{OTHER}} has not seen it.
+[info_p_seller]
+You also know that the buyer's ceiling was drawn at random from the range {{LO}} to {{HI}}. The buyer does not know that you know this.
+[info_p_buyer]
+You also know that the seller's floor was drawn at random from the range {{LO}} to {{HI}}. The seller does not know that you know this.

@@ -1,0 +1,2 @@
+{"schema":"event/1","t":"2026-10-10T19:11:21.911Z","kind":"open","resumed":false,"prev_sha256":"0000000000000000000000000000000000000000000000000000000000000000"}
+{"schema":"event/1","t":"2026-10-10T19:16:10.919Z","kind":"close","status":"complete","why":null,"items":1440,"spent":0.249344,"unpriced_replies":0,"done":1440,"valid":1440,"invalid":0,"infra":0,"prev_sha256":"96c23a4d4b1716c35d99e313f37ad93ec5f6d6f289d99007c1c8c512f7456b46"}

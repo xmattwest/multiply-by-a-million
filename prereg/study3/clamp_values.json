@@ -1,0 +1,310 @@
+{
+ "schema": "study3-clamp-values/1",
+ "rule": "mean first-offer positions in zone units, x = (P - F)/(C - F), of the seller and the buyer, over each arm's earlier no-appraisal games containing both first offers, per opener and scale; 4 decimals. Scripted price = F + x (C - F), rounded half up to a multiple of V/100",
+ "sources": {
+  "qwen3.8-27b-fp8": {
+   "run": "data/runs/s2-qwen3.8-27b-fp8-20261003T223042Z",
+   "games_sha256": "c41124b615603d6cbd745614bb1fdd020e5e503e40487d599638a454f84c6091"
+  },
+  "gemma-4-31b-it": {
+   "run": "data/runs/s2-gemma-4-31b-it-20261004T012932Z",
+   "games_sha256": "fb54812f7350c0635f12d282fe9fe9e71702db5595bd39d43c4940795765b612"
+  },
+  "gpt-6-luna": {
+   "run": "data/runs/addC-20261011T182548Z",
+   "games_sha256": "34e92d5b5cc21f857d5de19e4adcd186145c24729336b7dd28743bb4cb528bab"
+  },
+  "claude-haiku-5.5": {
+   "run": "data/runs/addC-20261011T182548Z",
+   "games_sha256": "34e92d5b5cc21f857d5de19e4adcd186145c24729336b7dd28743bb4cb528bab"
+  },
+  "gemini-3.5-flash-lite": {
+   "run": "data/runs/addC-20261011T182548Z",
+   "games_sha256": "34e92d5b5cc21f857d5de19e4adcd186145c24729336b7dd28743bb4cb528bab"
+  }
+ },
+ "values": {
+  "qwen3.8-27b-fp8": {
+   "seller": {
+    "x1e2": {
+     "x_seller": "0.7467",
+     "x_buyer": "0.0126"
+    },
+    "x1e8": {
+     "x_seller": "0.3981",
+     "x_buyer": "-0.1021"
+    }
+   },
+   "buyer": {
+    "x1e2": {
+     "x_seller": "0.7040",
+     "x_buyer": "-0.5278"
+    },
+    "x1e8": {
+     "x_seller": "0.5891",
+     "x_buyer": "0.0613"
+    }
+   }
+  },
+  "gemma-4-31b-it": {
+   "seller": {
+    "x1e2": {
+     "x_seller": "1.3084",
+     "x_buyer": "0.2420"
+    },
+    "x1e8": {
+     "x_seller": "0.6352",
+     "x_buyer": "0.0856"
+    }
+   },
+   "buyer": {
+    "x1e2": {
+     "x_seller": "1.1235",
+     "x_buyer": "-0.8802"
+    },
+    "x1e8": {
+     "x_seller": "0.5649",
+     "x_buyer": "-0.5168"
+    }
+   }
+  },
+  "gpt-6-luna": {
+   "seller": {
+    "x1e2": {
+     "x_seller": "1.5181",
+     "x_buyer": "-0.0151"
+    },
+    "x1e8": {
+     "x_seller": "1.0955",
+     "x_buyer": "0.0773"
+    }
+   },
+   "buyer": {
+    "x1e2": {
+     "x_seller": "1.0508",
+     "x_buyer": "-0.8088"
+    },
+    "x1e8": {
+     "x_seller": "0.7523",
+     "x_buyer": "-0.5938"
+    }
+   }
+  },
+  "claude-haiku-5.5": {
+   "seller": {
+    "x1e2": {
+     "x_seller": "2.5091",
+     "x_buyer": "0.2316"
+    },
+    "x1e8": {
+     "x_seller": "2.1405",
+     "x_buyer": "0.4198"
+    }
+   },
+   "buyer": {
+    "x1e2": {
+     "x_seller": "0.9076",
+     "x_buyer": "-0.4641"
+    },
+    "x1e8": {
+     "x_seller": "0.6720",
+     "x_buyer": "-0.1332"
+    }
+   }
+  },
+  "gemini-3.5-flash-lite": {
+   "seller": {
+    "x1e2": {
+     "x_seller": "1.6703",
+     "x_buyer": "-0.1087"
+    },
+    "x1e8": {
+     "x_seller": "0.5638",
+     "x_buyer": "-0.0493"
+    }
+   },
+   "buyer": {
+    "x1e2": {
+     "x_seller": "0.8846",
+     "x_buyer": "-0.7889"
+    },
+    "x1e8": {
+     "x_seller": "0.3415",
+     "x_buyer": "-0.4370"
+    }
+   }
+  }
+ },
+ "detail_not_used_for_pricing": {
+  "qwen3.8-27b-fp8": {
+   "seller": {
+    "x1e2": {
+     "n_games": 30,
+     "median_x_seller": 0.7108,
+     "median_x_buyer": 0.0251,
+     "mean_gap_seller_own_limit": 0.2451,
+     "mean_gap_buyer_own_limit": 0.2486
+    },
+    "x1e8": {
+     "n_games": 29,
+     "median_x_seller": 0.3684,
+     "median_x_buyer": -0.1579,
+     "mean_gap_seller_own_limit": 0.1267,
+     "mean_gap_buyer_own_limit": 0.2854
+    }
+   },
+   "buyer": {
+    "x1e2": {
+     "n_games": 30,
+     "median_x_seller": 0.6196,
+     "median_x_buyer": -0.42,
+     "mean_gap_seller_own_limit": 0.2238,
+     "mean_gap_buyer_own_limit": 0.3663
+    },
+    "x1e8": {
+     "n_games": 30,
+     "median_x_seller": 0.4932,
+     "median_x_buyer": 0.1047,
+     "mean_gap_seller_own_limit": 0.2289,
+     "mean_gap_buyer_own_limit": 0.223
+    }
+   }
+  },
+  "gemma-4-31b-it": {
+   "seller": {
+    "x1e2": {
+     "n_games": 30,
+     "median_x_seller": 1.2597,
+     "median_x_buyer": 0.3179,
+     "mean_gap_seller_own_limit": 0.4361,
+     "mean_gap_buyer_own_limit": 0.1831
+    },
+    "x1e8": {
+     "n_games": 30,
+     "median_x_seller": 0.5534,
+     "median_x_buyer": 0.0501,
+     "mean_gap_seller_own_limit": 0.2058,
+     "mean_gap_buyer_own_limit": 0.2395
+    }
+   },
+   "buyer": {
+    "x1e2": {
+     "n_games": 30,
+     "median_x_seller": 0.9844,
+     "median_x_buyer": -0.8665,
+     "mean_gap_seller_own_limit": 0.3561,
+     "mean_gap_buyer_own_limit": 0.4529
+    },
+    "x1e8": {
+     "n_games": 30,
+     "median_x_seller": 0.49,
+     "median_x_buyer": -0.3961,
+     "mean_gap_seller_own_limit": 0.166,
+     "mean_gap_buyer_own_limit": 0.362
+    }
+   }
+  },
+  "gpt-6-luna": {
+   "seller": {
+    "x1e2": {
+     "n_games": 120,
+     "median_x_seller": 1.4,
+     "median_x_buyer": 0.0789,
+     "mean_gap_seller_own_limit": 0.4812,
+     "mean_gap_buyer_own_limit": 0.2361
+    },
+    "x1e8": {
+     "n_games": 120,
+     "median_x_seller": 1.0,
+     "median_x_buyer": 0.12,
+     "mean_gap_seller_own_limit": 0.3544,
+     "mean_gap_buyer_own_limit": 0.2248
+    }
+   },
+   "buyer": {
+    "x1e2": {
+     "n_games": 120,
+     "median_x_seller": 0.9403,
+     "median_x_buyer": -0.6562,
+     "mean_gap_seller_own_limit": 0.3233,
+     "mean_gap_buyer_own_limit": 0.4333
+    },
+    "x1e8": {
+     "n_games": 119,
+     "median_x_seller": 0.6579,
+     "median_x_buyer": -0.5,
+     "mean_gap_seller_own_limit": 0.228,
+     "mean_gap_buyer_own_limit": 0.3818
+    }
+   }
+  },
+  "claude-haiku-5.5": {
+   "seller": {
+    "x1e2": {
+     "n_games": 120,
+     "median_x_seller": 2.2188,
+     "median_x_buyer": 0.32,
+     "mean_gap_seller_own_limit": 0.814,
+     "mean_gap_buyer_own_limit": 0.1848
+    },
+    "x1e8": {
+     "n_games": 120,
+     "median_x_seller": 1.9016,
+     "median_x_buyer": 0.4679,
+     "mean_gap_seller_own_limit": 0.6807,
+     "mean_gap_buyer_own_limit": 0.1383
+    }
+   },
+   "buyer": {
+    "x1e2": {
+     "n_games": 120,
+     "median_x_seller": 0.8775,
+     "median_x_buyer": -0.3636,
+     "mean_gap_seller_own_limit": 0.2877,
+     "mean_gap_buyer_own_limit": 0.3494
+    },
+    "x1e8": {
+     "n_games": 120,
+     "median_x_seller": 0.6316,
+     "median_x_buyer": -0.0606,
+     "mean_gap_seller_own_limit": 0.2315,
+     "mean_gap_buyer_own_limit": 0.2731
+    }
+   }
+  },
+  "gemini-3.5-flash-lite": {
+   "seller": {
+    "x1e2": {
+     "n_games": 115,
+     "median_x_seller": 1.5,
+     "median_x_buyer": 0.0789,
+     "mean_gap_seller_own_limit": 0.5133,
+     "mean_gap_buyer_own_limit": 0.2581
+    },
+    "x1e8": {
+     "n_games": 114,
+     "median_x_seller": 0.4501,
+     "median_x_buyer": 0.0,
+     "mean_gap_seller_own_limit": 0.1767,
+     "mean_gap_buyer_own_limit": 0.2711
+    }
+   },
+   "buyer": {
+    "x1e2": {
+     "n_games": 120,
+     "median_x_seller": 0.5546,
+     "median_x_buyer": -0.5938,
+     "mean_gap_seller_own_limit": 0.27,
+     "mean_gap_buyer_own_limit": 0.4265
+    },
+    "x1e8": {
+     "n_games": 90,
+     "median_x_seller": 0.3478,
+     "median_x_buyer": -0.3058,
+     "mean_gap_seller_own_limit": 0.1058,
+     "mean_gap_buyer_own_limit": 0.32
+    }
+   }
+  }
+ }
+}

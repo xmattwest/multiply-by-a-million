@@ -1,0 +1,58 @@
+{
+ "runs": {
+  "study1|qwen3.8-27b-fp8": "qwen3.8-27b-fp8-20261003T180835Z",
+  "study2|gemma-4-31b-it": "s2-gemma-4-31b-it-20261004T012932Z",
+  "study2|qwen3.8-27b-fp8": "s2-qwen3.8-27b-fp8-20261003T223042Z"
+ },
+ "families": {
+  "study1_H1": {
+   "models": [
+    "qwen3.8-27b-fp8"
+   ],
+   "p_unadjusted": {
+    "qwen3.8-27b-fp8": 0.205855
+   },
+   "p_holm": {
+    "qwen3.8-27b-fp8": 0.205855
+   }
+  },
+  "study2_H1": {
+   "models": [
+    "gemma-4-31b-it",
+    "qwen3.8-27b-fp8"
+   ],
+   "p_unadjusted": {
+    "qwen3.8-27b-fp8": 0.738415,
+    "gemma-4-31b-it": 0.0
+   },
+   "p_holm": {
+    "gemma-4-31b-it": 0.0,
+    "qwen3.8-27b-fp8": 0.738415
+   }
+  },
+  "addendumA_HA": {
+   "models": [
+    "gemma-4-31b-it"
+   ],
+   "p_unadjusted": {
+    "gemma-4-31b-it": 0.0
+   },
+   "p_holm": {
+    "gemma-4-31b-it": 0.0
+   },
+   "note": "Gemma models only; Qwen is the hypothesis source and is excluded"
+  },
+  "addendumA_HB": {
+   "models": [
+    "gemma-4-31b-it"
+   ],
+   "p_unadjusted": {
+    "gemma-4-31b-it": 0.000675
+   },
+   "p_holm": {
+    "gemma-4-31b-it": 0.000675
+   },
+   "note": "Gemma models only; Qwen is the hypothesis source and is excluded"
+  }
+ }
+}

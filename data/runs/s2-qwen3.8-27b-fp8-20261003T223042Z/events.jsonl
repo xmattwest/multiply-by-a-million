@@ -1,0 +1,4 @@
+{"schema":"event/1","t":"2026-10-03T22:30:42.359Z","kind":"open","resumed":false,"prev_sha256":"0000000000000000000000000000000000000000000000000000000000000000"}
+{"schema":"event/1","t":"2026-10-03T22:30:45.992Z","kind":"gate_effective_settings","ok":true,"detail":"all 9 fields equal","response_id":"chatcmpl-8207c9e2d682352e","prev_sha256":"e3e420d7d041177a6787673ba19b9bb85191fe728b36fe2a331868d8cd06bb47"}
+{"schema":"event/1","t":"2026-10-03T23:18:53.630Z","kind":"session_end","status":"complete","prev_sha256":"c44f45f87e6a529099fbd1eaeabd138a093e0f8a243f30cbb7338f99f4ecc908"}
+{"schema":"event/1","t":"2026-10-03T23:18:53.630Z","kind":"close","games":180,"voided":0,"replies":1215,"invalid":0,"reasoning":0,"prev_sha256":"47e1f9f5bfd53490da8f850c3793a0e74898caa45385dcd3ca8a860001d0e455"}

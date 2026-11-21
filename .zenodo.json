@@ -1,0 +1,33 @@
+{
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "title": "Multiply by a Million: Scale Invariance in LLM Negotiators",
+  "publication_date": "2026-10-18",
+  "creators": [
+    {
+      "name": "West, Matt",
+      "affiliation": "Independent research",
+      "orcid": "0009-0008-5557-9394"
+    }
+  ],
+  "description": "People take more risk with small stakes and discount large amounts less; we test whether LLM negotiators, whose task is identical at every scale, also respond to scale. Across five models (Gemma 4 31B, Qwen3.8 27B, gpt-6-luna, claude-haiku-5.5, and gemini-3.5-flash-lite), each playing 3,200 self-play games (16,000 games total) on 40 randomly drawn price ranges at $100, $100K, and $100M with and without a public appraisal and an opening clamp, every model opens closer to its own limit at $100M without the appraisal, and closing deals follow the scripted openings' midpoint across all five models. Mechanistic patching and steering in Gemma 4 31B (E5, E6) localize where the appraisal overrides the scale signal at Layer 41 of 60 on the price-writing tokens. Includes the main paper, separated supplementary appendix (Appendices A-F), pre-registered Study 3 protocol and frozen SHA-256 inputs, E5/E6 pre-committed predictions, analysis code, and derived results.",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "LLM negotiation",
+    "scale invariance",
+    "behavioral economics",
+    "mechanistic interpretability",
+    "Gemma 4 31B",
+    "Qwen3.8 27B",
+    "game theory",
+    "AI evaluation"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://shelltoho.me/pubs/multiply-by-a-million/",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint"
+    }
+  ]
+}

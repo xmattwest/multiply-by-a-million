@@ -1,0 +1,72 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='534' viewBox='0 0 1000 534' role='img' aria-labelledby='t d'><title id='t'>Concept decomposition and failed ablation control</title><desc id='d'>Panel c of fig7_interp, source interp-concepts2-gemma-4-31b-it-20261010T140106Z; original checked values.</desc><rect width='1000' height='534' fill='white'/>
+<text x='20.0' y='34.0' font-size='22' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>c</text>
+<text x='46.0' y='34.0' font-size='19' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>What v is made of: six named concepts (count, money, million, digits, stakes, modesty)</text>
+<text x='30.0' y='76.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>add one part (layer 42, forced opening): share of the gap moved</text>
+<line x1='340.0' y1='94.0' x2='340.0' y2='254.0' stroke='#6B6B6B' stroke-width='1.2' stroke-dasharray='4 3'/>
+<line x1='540.0' y1='94.0' x2='540.0' y2='254.0' stroke='#EEF1F4' stroke-width='1.2'/>
+<text x='288.0' y='119.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>v (whole direction)</text>
+<line x1='517.4' y1='108.0' x2='534.4' y2='108.0' stroke='#2C3E50' stroke-width='2.4'/>
+<circle cx='526.4' cy='108.0' r='5' fill='#2C3E50'/>
+<line x1='493.5' y1='120.0' x2='510.5' y2='120.0' stroke='#B36B00' stroke-width='2.4'/>
+<rect x='498.0' y='115.5' width='9' height='9' fill='#B36B00'/>
+<text x='575.0' y='112.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>real openings L44: 85 / 92%</text>
+<text x='575.0' y='129.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>L41 93 / 72 · L44 89 / 78%</text>
+<text x='288.0' y='159.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>v minus the concepts&#x27; part</text>
+<line x1='521.6' y1='148.0' x2='540.9' y2='148.0' stroke='#2C3E50' stroke-width='2.4'/>
+<circle cx='531.1' cy='148.0' r='5' fill='#2C3E50'/>
+<line x1='483.4' y1='160.0' x2='501.6' y2='160.0' stroke='#B36B00' stroke-width='2.4'/>
+<rect x='488.1' y='155.5' width='9' height='9' fill='#B36B00'/>
+<text x='575.0' y='152.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>real openings L44: 84 / 86%</text>
+<text x='575.0' y='169.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>L41 99 / 68 · L44 85 / 71%</text>
+<text x='288.0' y='199.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>the concepts&#x27; part of v</text>
+<line x1='352.3' y1='188.0' x2='365.0' y2='188.0' stroke='#2C3E50' stroke-width='2.4'/>
+<circle cx='357.9' cy='188.0' r='5' fill='#2C3E50'/>
+<line x1='326.5' y1='200.0' x2='334.7' y2='200.0' stroke='#B36B00' stroke-width='2.4'/>
+<rect x='326.0' y='195.5' width='9' height='9' fill='#B36B00'/>
+<text x='575.0' y='192.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>real openings L44: 6 / 0%</text>
+<text x='575.0' y='209.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>L41 10 / −12 · L44 7 / 3%</text>
+<text x='288.0' y='239.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>the concepts&#x27; part at v&#x27;s size</text>
+<line x1='381.7' y1='228.0' x2='392.1' y2='228.0' stroke='#2C3E50' stroke-width='2.4'/>
+<circle cx='387.4' cy='228.0' r='5' fill='#2C3E50'/>
+<line x1='337.2' y1='240.0' x2='366.6' y2='240.0' stroke='#B36B00' stroke-width='2.4'/>
+<rect x='346.6' y='235.5' width='9' height='9' fill='#B36B00'/>
+<text x='575.0' y='232.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>real openings L44: 9 / 18%</text>
+<text x='575.0' y='249.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>L41 17 / 5 · L44 24 / 16%</text>
+<line x1='300.0' y1='258.0' x2='560.0' y2='258.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<line x1='340.0' y1='258.0' x2='340.0' y2='264.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='340.0' y='282.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>0%</text>
+<line x1='440.0' y1='258.0' x2='440.0' y2='264.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='440.0' y='282.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>50%</text>
+<line x1='540.0' y1='258.0' x2='540.0' y2='264.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='540.0' y='282.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>100%</text>
+<circle cx='40' cy='301' r='5' fill='#2C3E50'/>
+<text x='52.0' y='306.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>×1 prompt + part (toward ×10⁶)</text>
+<rect x='315.5' y='296.5' width='9' height='9' fill='#B36B00'/>
+<text x='332.0' y='306.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>×10⁶ prompt − part (toward ×1)</text>
+<text x='600.0' y='306.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>bars: 95% CI over 17 floors; text: ×1 / ×10⁶</text>
+<text x='30.0' y='340.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='bold' text-anchor='start'>remove a span from both runs&#x27; own states (layer 42): share of the gap kept</text>
+<line x1='340.0' y1='358.0' x2='340.0' y2='478.0' stroke='#6B6B6B' stroke-width='1.2' stroke-dasharray='4 3'/>
+<line x1='540.0' y1='358.0' x2='540.0' y2='478.0' stroke='#EEF1F4' stroke-width='1.2'/>
+<text x='288.0' y='383.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>the six concepts&#x27; span</text>
+<rect x='340.0' y='370.0' width='180.9' height='16' fill='#2C3E50' fill-opacity='0.85'/>
+<line x1='511.8' y1='378.0' x2='530.5' y2='378.0' stroke='#0F0F0F' stroke-width='1.6'/>
+<text x='575.0' y='376.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>kept 90%, readout p(a)+p(b) 0.84</text>
+<text x='575.0' y='393.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>L41 90% · L44 77%</text>
+<text x='288.0' y='423.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>v&#x27;s own direction</text>
+<rect x='340.0' y='410.0' width='32.8' height='16' fill='#2C3E50' fill-opacity='0.85'/>
+<line x1='363.1' y1='418.0' x2='384.0' y2='418.0' stroke='#0F0F0F' stroke-width='1.6'/>
+<text x='575.0' y='416.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='start'>kept 16%, readout p(a)+p(b) 0.74</text>
+<text x='575.0' y='433.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>L41 25% · L44 16%</text>
+<text x='288.0' y='463.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='end'>a random 6-d span</text>
+<rect x='340.0' y='450.0' width='26.1' height='16' fill='#6B6B6B' fill-opacity='0.35'/>
+<line x1='352.0' y1='458.0' x2='379.5' y2='458.0' stroke='#0F0F0F' stroke-width='1.6'/>
+<text x='575.0' y='456.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>kept 13%, readout p(a)+p(b) 0.35  (not inert: readout breaks)</text>
+<text x='575.0' y='473.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#6B6B6B' font-weight='normal' text-anchor='start'>L41 41% · L44 23%</text>
+<line x1='300.0' y1='482.0' x2='560.0' y2='482.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<line x1='340.0' y1='482.0' x2='340.0' y2='488.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='340.0' y='506.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>0%</text>
+<line x1='440.0' y1='482.0' x2='440.0' y2='488.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='440.0' y='506.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>50%</text>
+<line x1='540.0' y1='482.0' x2='540.0' y2='488.0' stroke='#0F0F0F' stroke-width='1.2'/>
+<text x='540.0' y='506.0' font-size='15' font-family="Helvetica, Arial, sans-serif" fill='#0F0F0F' font-weight='normal' text-anchor='middle'>100%</text>
+</svg>

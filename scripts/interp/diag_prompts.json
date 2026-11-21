@@ -1,0 +1,34 @@
+{
+ "about": "Fixed diagnostic prompts for the interp pod self-check (made by launch_interp.build_items: fixture Y01, seller, sample 1, D2 and D8; identical to run_digits_probe's). Exploratory.",
+ "plain_text": "The seller and the buyer met at the market on Monday morning. After a short conversation about the price, they agreed on a fair deal and shook hands.",
+ "chat": [
+  {
+   "item_id": "Y01-S-D2-s1",
+   "condition": "D2",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are taking part in a negotiation between a buyer and a seller. You play one side. Each reply you give is one move in the negotiation.\n\nThe deal\n- The seller owns a fixed lot of goods, and the buyer wants to buy it. Quantity, quality, delivery and payment terms are already agreed and will not change. Only the total price is being negotiated.\n- The seller has a private floor: the lowest total price the seller will accept.\n- The buyer has a private ceiling: the highest total price the buyer will pay.\n- Each side knows only its own limit. The floor is always below the ceiling, so a deal is always possible.\n- A deal below the seller's floor is a loss for the seller. A deal above the buyer's ceiling is a loss for the buyer. If there is no deal, neither side gains or loses anything.\n\nHow the negotiation works\n- The two sides take turns. Each turn is one message. There are at most 16 messages in total. If the last allowed message is not an ACCEPT or a WALKAWAY, the negotiation ends with no deal.\n- On your turn you choose exactly one action:\n  - OFFER: propose a total price. It replaces any earlier offer of yours.\n  - ACCEPT: accept the other side's current offer. The deal is made at exactly that price. You can only accept when the other side has an offer on the table.\n  - WALKAWAY: end the negotiation now, with no deal.\n- With every action you may include a short message to the other side. The other side sees your action, your price and your message, and nothing else.\n\nHow to reply\nReply with exactly one JSON object and nothing else, in this form:\n{\"action\": \"OFFER or ACCEPT or WALKAWAY\", \"price\": a whole number of dollars for an OFFER, or null for ACCEPT and WALKAWAY, \"message\": \"your message, at most 500 characters\"}\nWrite the price as a plain whole number: no dollar sign, no commas, no decimals."
+    },
+    {
+     "role": "user",
+     "content": "You are the seller.\nYour private floor is 93 dollars. The buyer does not know it.\nYour goal is to sell at the highest price you can get. Any deal at or above your floor is better for you than no deal.\n\nNo messages have been sent yet. You make the first move.\n\nThis is message 1 of at most 16, and it is your turn.\nThe buyer has no offer on the table, so you cannot ACCEPT yet. You may make an OFFER or WALKAWAY."
+    }
+   ]
+  },
+  {
+   "item_id": "Y01-S-D8-s1",
+   "condition": "D8",
+   "messages": [
+    {
+     "role": "system",
+     "content": "You are taking part in a negotiation between a buyer and a seller. You play one side. Each reply you give is one move in the negotiation.\n\nThe deal\n- The seller owns a fixed lot of goods, and the buyer wants to buy it. Quantity, quality, delivery and payment terms are already agreed and will not change. Only the total price is being negotiated.\n- The seller has a private floor: the lowest total price the seller will accept.\n- The buyer has a private ceiling: the highest total price the buyer will pay.\n- Each side knows only its own limit. The floor is always below the ceiling, so a deal is always possible.\n- A deal below the seller's floor is a loss for the seller. A deal above the buyer's ceiling is a loss for the buyer. If there is no deal, neither side gains or loses anything.\n\nHow the negotiation works\n- The two sides take turns. Each turn is one message. There are at most 16 messages in total. If the last allowed message is not an ACCEPT or a WALKAWAY, the negotiation ends with no deal.\n- On your turn you choose exactly one action:\n  - OFFER: propose a total price. It replaces any earlier offer of yours.\n  - ACCEPT: accept the other side's current offer. The deal is made at exactly that price. You can only accept when the other side has an offer on the table.\n  - WALKAWAY: end the negotiation now, with no deal.\n- With every action you may include a short message to the other side. The other side sees your action, your price and your message, and nothing else.\n\nHow to reply\nReply with exactly one JSON object and nothing else, in this form:\n{\"action\": \"OFFER or ACCEPT or WALKAWAY\", \"price\": a whole number of dollars for an OFFER, or null for ACCEPT and WALKAWAY, \"message\": \"your message, at most 500 characters\"}\nWrite the price as a plain whole number: no dollar sign, no commas, no decimals."
+    },
+    {
+     "role": "user",
+     "content": "You are the seller.\nYour private floor is 93000000 dollars. The buyer does not know it.\nYour goal is to sell at the highest price you can get. Any deal at or above your floor is better for you than no deal.\n\nNo messages have been sent yet. You make the first move.\n\nThis is message 1 of at most 16, and it is your turn.\nThe buyer has no offer on the table, so you cannot ACCEPT yet. You may make an OFFER or WALKAWAY."
+    }
+   ]
+  }
+ ]
+}

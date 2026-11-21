@@ -1,0 +1,43 @@
+{
+  "about": "Exact versions the experiment uses. Proposed in Phase 4 (2026-10-02); frozen by the Phase 6 pre-registration. Model commits are the repos' current commits on 2026-10-02 (docs/research_notes.md M1.1-M3.1). The image digest is Docker Hub's for tag v0.30.0 (docs/api_map.md section 2). File-level hashes for each model are in config/manifests/.",
+  "pinned_on": "2026-10-02",
+  "vllm_image": {
+    "tag": "vllm/vllm-openai:v0.30.0",
+    "index_digest": "sha256:8a69ffad015f138d7170c4ddc429e230a3bc1c1719f67e14324749df200a4b90",
+    "amd64_digest": "sha256:5f5e535216848d0c52159c8c13a0af04be5f6fe1a84e79914300610796f76d40",
+    "source": "https://hub.docker.com/v2/repositories/vllm/vllm-openai/tags/v0.30.0"
+  },
+  "models": [
+    {
+      "name": "qwen3.8-27b-fp8",
+      "repo": "Qwen/Qwen3.8-27B-FP8",
+      "revision": "017b9c7af6b5689d5dd426a76e0bc077eb5ca20a",
+      "role": "primary"
+    },
+    {
+      "name": "gemma-4-12b-it",
+      "repo": "google/gemma-4-12B-it",
+      "revision": "707f0a3b8a3c7ad586ed01e27eafbad8a27dd0f7",
+      "role": "primary"
+    },
+    {
+      "name": "gemma-4-31b-it",
+      "repo": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "role": "third or substitute"
+    },
+    {
+      "name": "mistral-small-24b-it",
+      "repo": "mistralai/Mistral-Small-24B-Instruct-2501",
+      "revision": "9527884be6e5616bdd54de542f9ae13384489724",
+      "exclude": ["consolidated.safetensors", "params.json", "tekken.json"],
+      "role": "WP2d family generalisation (amendment 2026-10-04; pinned 2026-10-04)"
+    },
+    {
+      "name": "phi-4-14b",
+      "repo": "microsoft/phi-4",
+      "revision": "2db69c1c3e91a05d2c64a3185acfbaf36f744e25",
+      "role": "WP2d family generalisation (amendment 2026-10-04; pinned 2026-10-04)"
+    }
+  ]
+}
