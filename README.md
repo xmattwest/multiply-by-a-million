@@ -1,6 +1,6 @@
 # Multiply by a Million: Scale Invariance in LLM Negotiators
 
-**Author:** [Matt E. West](https://shelltoho.me/) ([GitHub](https://github.com/xmattwest) · [Hugging Face](https://huggingface.co/mattyxcakes) · [ORCID](https://orcid.org/0009-0008-5557-9394) · [X](https://x.com/xmattwest) · [LinkedIn](https://www.linkedin.com/in/matt-e-west))
+**Author:** [Matt E. West](https://shelltoho.me/) ([Google Scholar](https://scholar.google.com/citations?user=khPjLQcAAAAJ&hl=en) · [GitHub](https://github.com/xmattwest) · [Hugging Face](https://huggingface.co/mattyxcakes) · [ORCID](https://orcid.org/0009-0008-5557-9394) · [X](https://x.com/xmattwest) · [LinkedIn](https://www.linkedin.com/in/matt-e-west))
 
 - **Interactive Web Edition:** [https://shelltoho.me/pubs/multiply-by-a-million/](https://shelltoho.me/pubs/multiply-by-a-million/)
 - **Main Paper (14 pages, Sections 1-9 + References):** [`papers/multiply-by-a-million.pdf`](papers/multiply-by-a-million.pdf) · [`papers/multiply-by-a-million.md`](papers/multiply-by-a-million.md)
