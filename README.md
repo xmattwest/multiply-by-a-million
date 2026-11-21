@@ -1,7 +1,10 @@
 # Multiply by a Million: Scale Invariance in LLM Negotiators
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24420003.svg)](https://doi.org/10.5281/zenodo.24420003)
+
 **Author:** [Matt E. West](https://shelltoho.me/) ([Google Scholar](https://scholar.google.com/citations?user=khPjLQcAAAAJ&hl=en) · [GitHub](https://github.com/xmattwest) · [Hugging Face](https://huggingface.co/mattyxcakes) · [ORCID](https://orcid.org/0009-0008-5557-9394) · [X](https://x.com/xmattwest) · [LinkedIn](https://www.linkedin.com/in/matt-e-west))
 
+- **DOI (Zenodo):** [`10.5281/zenodo.24420003`](https://doi.org/10.5281/zenodo.24420003) (Concept DOI: [`10.5281/zenodo.24420002`](https://doi.org/10.5281/zenodo.24420002))
 - **Interactive Web Edition:** [https://shelltoho.me/pubs/multiply-by-a-million/](https://shelltoho.me/pubs/multiply-by-a-million/)
 - **Main Paper (14 pages, Sections 1-9 + References):** [`papers/multiply-by-a-million.pdf`](papers/multiply-by-a-million.pdf) · [`papers/multiply-by-a-million.md`](papers/multiply-by-a-million.md)
 - **Supplementary Appendix (38 pages, Appendices A-F):** [`papers/appendix.pdf`](papers/appendix.pdf) · [`papers/appendix.md`](papers/appendix.md)
@@ -49,6 +52,18 @@ python3 -m unittest tests/test_game_engine.py tests/test_render_prompt.py tests/
 ```
 
 ---
+
+## Citation
+
+```bibtex
+@misc{west2026multiply,
+  title   = {Multiply by a Million: Scale Invariance in LLM Negotiators},
+  author  = {West, Matt E.},
+  year    = {2026},
+  doi     = {10.5281/zenodo.24420003},
+  url     = {https://doi.org/10.5281/zenodo.24420003}
+}
+```
 
 ## License
 
