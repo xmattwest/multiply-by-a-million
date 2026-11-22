@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24420003.svg)](https://doi.org/10.5281/zenodo.24420003)
 
-**Author:** [Matt E. West](https://shelltoho.me/) ([Google Scholar](https://scholar.google.com/citations?user=khPjLQcAAAAJ&hl=en) · [GitHub](https://github.com/xmattwest) · [Hugging Face](https://huggingface.co/mattyxcakes) · [ORCID](https://orcid.org/0009-0008-5557-9394) · [X](https://x.com/xmattwest) · [LinkedIn](https://www.linkedin.com/in/matt-e-west))
+**Author:** [Matt E. West](https://shelltoho.me/) ([Google Scholar](https://scholar.google.com/citations?user=khPjLQcAAAAJ&hl=en) · [GitHub](https://github.com/xmattwest) · [Hugging Face](https://huggingface.co/xmattwest) · [ORCID](https://orcid.org/0009-0008-5557-9394) · [X](https://x.com/xmattwest) · [LinkedIn](https://www.linkedin.com/in/matt-e-west))
 
 - **DOI (Zenodo):** [`10.5281/zenodo.24420003`](https://doi.org/10.5281/zenodo.24420003) (Concept DOI: [`10.5281/zenodo.24420002`](https://doi.org/10.5281/zenodo.24420002))
 - **Interactive Web Edition:** [https://shelltoho.me/pubs/multiply-by-a-million/](https://shelltoho.me/pubs/multiply-by-a-million/)
