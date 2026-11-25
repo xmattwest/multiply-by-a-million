@@ -1,0 +1,22 @@
+% Auto-generated from derived/addendum_d/addendum_d_all.json
+\begin{table}[t]
+\centering
+\caption{E6b layer-covariance-matched, format-orthogonalized random control (\texttt{rand\_cov}, L42, $|\text{rand\_cov}| = |v_R| = 30.39$, $\cos(v_R, \text{rand\_cov}) = 0.000$) vs.\ isotropic \texttt{rand}, non-money control $u$, and negotiation direction $v_R$ at $\alpha = +2$ on \$100 prompts (Gemma 4 31B). Unlike isotropic \texttt{rand} (which collapses valid-option mass to $0.000$), \texttt{rand\_cov} preserves $1.00$ valid-option mass and $100\%$ parse rate while remaining inert on risky choices ($-3.5\%$; $-0.2\%$ at $\alpha=+1$) and percentages ($+2.9\%$).}
+\label{tab:e6b}
+\footnotesize
+\setlength{\tabcolsep}{4.5pt}
+\begin{tabular}{@{}llcccc@{}}
+\toprule
+Family & Metric & $v_R$ (nego) & $u$ (non-money) & \texttt{rand} (isotropic) & \texttt{rand\_cov} (E6b) \\
+\midrule
+Risk choices & Valid-option mass & 1.00 & 1.00 & 0.00 (broken) & \textbf{1.00} \\
+ & Share of natural gap & $+$5\% & $+$2\% & uninterpretable & \textbf{$-$4\%} \\
+Comparisons & Valid-option mass & 1.00 & 1.00 & 0.00 (broken) & \textbf{1.00} \\
+ & Margin $\Delta$ (nats) & $-$0.74 & $+0.56$ & $-$25.59 & \textbf{$+$0.28} \\
+Percentages & Parse valid rate & 100\% & 100\% & breaks at \$100M & \textbf{100\%} \\
+ & Share of natural gap & $-$4\% & $-$2\% & $+9\%$ & \textbf{$+$3\%} \\
+Sums & Exact-match $\Delta$ & 0.00 & 0.00 & 0.00 & \textbf{0.00} \\
+Negotiation & Share of natural gap & $+$86\% & $+$8\% & $+$8\% & \textbf{$+$18\%} \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,22 @@
+% Auto-generated from derived/addendum_d/addendum_d.json
+\begin{table}[t]
+\centering
+\caption{Addendum D preregistered robustness checks on \texttt{gemini-3.5-flash-lite} across Study 3's exact 40 fixtures (G01--G40, $k = 2$ per cell). Paired Wilcoxon sign-flip $p$-values (200{,}000 flips) and 90\% fixture-bootstrap CIs. D1 enables native thinking (\texttt{thinkingBudget=1024}, mean 274.9 thinking tokens/call, 640/640 agreements, 0 outside-zone deals). D3 replaces the \$100 baseline with \$1{,}000 (318/320 agreements, 0 forfeits).}
+\label{tab:addendum-d}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Block / Contrast & Games & Estimate [90\% CI] & $p$ & Paired $\Delta$ vs.\ Study 3 \\
+\midrule
+D1 Thinking-On, A0 closing $d$ (\$100M $-$ \$100) & 320 & $-$0.178 [$-$0.210, $-$0.146] & $< 0.001$ & $+$0.116 ($p$ $0.008$) \\
+D1 Thinking-On, A0 opening $h$ (\$100M $-$ \$100) & 320 & $-$0.204 [$-$0.215, $-$0.193] & $< 0.001$ & --- \\
+D1 Thinking-On, A1 closing $d$ (\$100M $-$ \$100) & 320 & $+$0.065 [$+$0.046, $+$0.083] & $< 0.001$ & $-$0.036 ($p$ $0.003$) \\
+D1 Thinking-On, P1 interaction $I = h(\text{A1}) - h(\text{A0})$ & 640 & $+$0.145 [$+$0.131, $+$0.159] & $< 0.001$ & --- \\
+\midrule
+D3 \$1{,}000 Anchor, A0 closing $d$ (\$100M $-$ \$1K) & 320 & $-$0.167 [$-$0.236, $-$0.101] & $< 0.001$ & $+$0.127 [$+$0.066, $+$0.188] \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

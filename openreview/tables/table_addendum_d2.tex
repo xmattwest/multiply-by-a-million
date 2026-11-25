@@ -1,0 +1,20 @@
+% Auto-generated from derived/addendum_d/addendum_d_all.json
+\begin{table}[t]
+\centering
+\caption{Addendum D2 exploratory 3-model cross-play matrix (200 A0 games across G01--G40, 198 agreements, 0 forfeits; stopped at the 45-min pod cap). Mean seller share at \$100 and \$100M and shift $\Delta = \bar{s}(\$100\text{M}) - \bar{s}(\$100)$ per directed (Seller $\to$ Buyer) pair. High-shrinkage sellers (Gemma, Gemini) lose 16--30 points against Qwen, whereas Qwen selling to Gemini gains $+14$ points.}
+\label{tab:addendum-d2}
+\footnotesize
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+Seller & Buyer & Games & $\bar{s}(\$100)$ & $\bar{s}(\$100\text{M})$ & $\Delta$ (\$100M $-$ \$100) \\
+\midrule
+Gemini 3.5 FL & Gemma 4 31B & 31 & 0.334 & 0.149 & $-$0.185 \\
+Gemini 3.5 FL & Qwen3.8 27B & 46 & 0.384 & 0.225 & $-$0.160 \\
+Gemma 4 31B & Gemini 3.5 FL & 41 & 0.489 & 0.381 & $-$0.107 \\
+Gemma 4 31B & Qwen3.8 27B & 23 & 0.502 & 0.206 & $-$0.296 \\
+Qwen3.8 27B & Gemini 3.5 FL & 32 & 0.313 & 0.452 & $+$0.139 \\
+Qwen3.8 27B & Gemma 4 31B & 27 & 0.210 & 0.177 & $-$0.032 \\
+\bottomrule
+\end{tabular}
+\end{table}

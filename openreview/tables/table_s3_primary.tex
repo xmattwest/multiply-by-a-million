@@ -1,0 +1,28 @@
+% Auto-generated from derived/study3/study3.json
+\begin{table}[t]
+\centering
+\caption{Registered primary tests, Study 3. Mean over 40 fixtures [90\% bootstrap CI]; $p$: Wilcoxon signed-rank (200{,}000 sign flips), Holm across the five models (P1 one-sided). Predictions (registration \S5.1): P1 $I > 0$ on all five; P2 A0 a shift on Gemma, Luna, and Gemini (two-sided) and equivalence within $\pm 0.10$ on Qwen and Haiku; P2 A1 equivalence within $\pm 0.10$ on all five; P3a $\kappa$ and P3b $\omega - \Delta m$ equivalent to zero within $\pm 0.05$ (90\% CI). A non-significant test is never read as equivalence. Total: 21 of 25.}
+\label{tab:s3-primary}
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+Model & P1 $\cdot$ $I > 0$ & P2 $\cdot$ A0 shift/equiv. & P2 $\cdot$ A1 equiv. & P3a $\cdot$ $\kappa \approx 0$ & P3b $\cdot$ $\omega - \Delta m \approx 0$ \\
+\midrule
+Gemma 4 31B & \makecell{\cmark $+$0.114 ($p$ $< 0.001$) \\{} [$+$0.100, $+$0.129]} & \makecell{\cmark $-$0.238 ($p$ $< 0.001$) (n.e.) \\{} [$-$0.261, $-$0.215]} & \makecell{\cmark $+$0.002 ($p$ $0.950$) \\{} [$-$0.010, $+$0.014]} & \makecell{\cmark $-$0.027 ($p$ $< 0.001$) \\{} [$-$0.034, $-$0.021]} & \makecell{\cmark $+$0.013 \\{} [$+$0.001, $+$0.024]} \\
+\addlinespace[2pt]
+Qwen3.8 27B & \makecell{\cmark $+$0.101 ($p$ $< 0.001$) \\{} [$+$0.089, $+$0.113]} & \makecell{\cmark $+$0.029 ($p$ $0.115$) \\{} [$+$0.001, $+$0.058]} & \makecell{\cmark $+$0.077 ($p$ $< 0.001$) \\{} [$+$0.059, $+$0.094]} & \makecell{\cmark $-$0.001 ($p$ $0.799$) \\{} [$-$0.007, $+$0.006]} & \makecell{\cmark $-$0.023 \\{} [$-$0.030, $-$0.016]} \\
+\addlinespace[2pt]
+gpt-6-luna & \makecell{\cmark $+$0.048 ($p$ $< 0.001$) \\{} [$+$0.034, $+$0.062]} & \makecell{\cmark $-$0.129 ($p$ $< 0.001$) (n.e.) \\{} [$-$0.147, $-$0.112]} & \makecell{\cmark $-$0.030 ($p$ $0.002$) \\{} [$-$0.044, $-$0.016]} & \makecell{\cmark $-$0.032 ($p$ $< 0.001$) \\{} [$-$0.039, $-$0.026]} & \makecell{\cmark $+$0.011 \\{} [$+$0.004, $+$0.018]} \\
+\addlinespace[2pt]
+claude-haiku-5.5 & \makecell{\xmark $-$0.020 ($p$ $0.985$) \\{} [$-$0.041, $+$0.003]} & \makecell{\cmark $-$0.051 ($p$ $0.014$) \\{} [$-$0.077, $-$0.026]} & \makecell{\xmark $-$0.113 ($p$ $< 0.001$) \\{} [$-$0.131, $-$0.096]} & \makecell{\xmark $-$0.044 ($p$ $< 0.001$) \\{} [$-$0.054, $-$0.034]} & \makecell{\cmark $+$0.038 \\{} [$+$0.029, $+$0.047]} \\
+\addlinespace[2pt]
+gemini-3.5-flash-lite & \makecell{\cmark $+$0.195 ($p$ $< 0.001$) \\{} [$+$0.175, $+$0.214]} & \makecell{\cmark $-$0.295 ($p$ $< 0.001$) (n.e.) \\{} [$-$0.346, $-$0.245]} & \makecell{\xmark $+$0.100 ($p$ $< 0.001$) \\{} [$+$0.083, $+$0.119]} & \makecell{\cmark $+$0.005 ($p$ $0.340$) \\{} [$-$0.002, $+$0.012]} & \makecell{\cmark $-$0.032 \\{} [$-$0.044, $-$0.019]} \\
+\addlinespace[2pt]
+\midrule
+\textbf{Predictions met} & \textbf{4 of 5} & \textbf{5 of 5} & \textbf{3 of 5} & \textbf{4 of 5} & \textbf{5 of 5} \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

@@ -1,0 +1,21 @@
+% Auto-generated from data/runs/s3-*/run_manifest.json
+\begin{table}[t]
+\centering
+\caption{Study 3 model arms and settings from the six session manifests (identical across both sessions of each model). Every arm uses at most 16 messages, 500 characters per message, and 1{,}024 output tokens per reply.}
+\label{tab:s3-arms}
+\scriptsize
+\setlength{\tabcolsep}{3.5pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}llllllr@{}}
+\toprule
+Model & Backend & Weights or returned version & Sampling & Thinking & Seed & Conc. \\
+\midrule
+Gemma 4 31B & vLLM 0.30.0 & \texttt{google/gemma-4-31B-it} @ \texttt{842da37} & temp 1.0, top-$p$ 0.95, top-$k$ 64 & off & yes & 16 \\
+Qwen3.8 27B & vLLM 0.30.0 & \texttt{Qwen/Qwen3.8-27B-FP8} @ \texttt{017b9c7} & temp 0.7, top-$p$ 0.8, top-$k$ 20 & off & yes & 16 \\
+gpt-6-luna & OpenRouter (OpenAI) & \texttt{openai/gpt-6-luna-20260922} & vendor defaults & effort ``none'' & yes & 8 \\
+claude-haiku-5.5 & OpenRouter (Anthropic) & \texttt{anthropic/claude-haiku-5.5-20261007} & vendor defaults & disabled & no & 8 \\
+gemini-3.5-flash-lite & OpenRouter (Google AI Studio) & \texttt{google/gemini-3.5-flash-lite-20260721} & vendor defaults & effort ``minimal'' & yes & 8 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

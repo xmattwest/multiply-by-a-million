@@ -1,0 +1,19 @@
+% Auto-generated from derived/study3/study3.json
+\begin{table}[t]
+\centering
+\caption{Study 3 game outcomes and data quality by model across all ten cells and both sessions. No model had a refusal, a reasoning token, or reasoning text, and no registered quality flag was raised. Agreements outside the zone are retained and scored unclipped, as registered.}
+\label{tab:s3-quality}
+\footnotesize
+\setlength{\tabcolsep}{4.5pt}
+\begin{tabular}{@{}lrrrrrrrr@{}}
+\toprule
+Model & Games & Agreements & Walkaways & Timeout & Forfeits & Outside zone & Trailing text & Mean msgs \\
+\midrule
+Gemma 4 31B & 3,200 & 3,199 & 1 & 0 & 0 & 0 & 0 & 8.2 \\
+Qwen3.8 27B & 3,200 & 3,191 & 9 & 0 & 0 & 20 & 0 & 6.8 \\
+gpt-6-luna & 3,200 & 3,130 & 12 & 23 & 35 & 0 & 616 & 14.9 \\
+claude-haiku-5.5 & 3,200 & 3,183 & 17 & 0 & 0 & 77 & 0 & 8.0 \\
+gemini-3.5-flash-lite & 3,200 & 3,189 & 11 & 0 & 0 & 120 & 0 & 6.7 \\
+\bottomrule
+\end{tabular}
+\end{table}

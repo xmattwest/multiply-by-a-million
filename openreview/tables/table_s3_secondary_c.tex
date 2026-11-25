@@ -1,0 +1,26 @@
+% Auto-generated from derived/study3/study3.json
+\begin{table}[t]
+\centering
+\caption{Remaining Study 3 registered secondaries (S3 agreement rate, coarse-grid prices, A1 seller utility; S8 A1 vs Study 1 on Qwen; S9 appraisal position vs A1 shift). All contrasts are \$100M $-$ \$100 fixture means; S3 $p$-values are two-sided Wilcoxon, Holm within model over the ten S2/S3 contrasts.}
+\label{tab:s3-sec-c}
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+Model & S3 agr.\ rate & S3 coarse-grid price & S3 util.\ (A1) & S8 A1 vs Study 1 & S9 $\rho$ (A1 shift) \\
+\midrule
+Gemma 4 31B & \makecell{A0: $-$0.003 ($1.000$) \\{} A1: $+$0.000 ($1.000$)} & \makecell{A0: $-$0.237 ($< 0.001$) \\{} A1: $+$0.002 ($1.000$)} & \makecell{$+$0.002 \\{} ($1.000$)} & --- & $+$0.51 \\
+\addlinespace[2pt]
+Qwen3.8 27B & \makecell{A0: $+$0.000 ($1.000$) \\{} A1: $+$0.000 ($1.000$)} & \makecell{A0: $+$0.030 ($0.630$) \\{} A1: $+$0.076 ($< 0.001$)} & \makecell{$+$0.077 \\{} ($< 0.001$)} & \makecell{$-$0.032 $\to$ $+$0.077 \\{} diff $+$0.109 [$+$0.061, $+$0.157]} & $+$0.03 \\
+\addlinespace[2pt]
+gpt-6-luna & \makecell{A0: $-$0.006 ($0.794$) \\{} A1: $-$0.022 ($0.430$)} & \makecell{A0: $-$0.128 ($< 0.001$) \\{} A1: $-$0.029 ($0.006$)} & \makecell{$-$0.041 \\{} ($0.006$)} & --- & $+$0.56 \\
+\addlinespace[2pt]
+claude-haiku-5.5 & \makecell{A0: $+$0.000 ($1.000$) \\{} A1: $+$0.003 ($1.000$)} & \makecell{A0: $-$0.052 ($0.039$) \\{} A1: $-$0.114 ($< 0.001$)} & \makecell{$-$0.110 \\{} ($< 0.001$)} & --- & $+$0.07 \\
+\addlinespace[2pt]
+gemini-3.5-flash-lite & \makecell{A0: $-$0.009 ($0.250$) \\{} A1: $+$0.013 ($0.248$)} & \makecell{A0: $-$0.294 ($< 0.001$) \\{} A1: $+$0.101 ($< 0.001$)} & \makecell{$+$0.100 \\{} ($< 0.001$)} & --- & $+$0.40 \\
+\addlinespace[2pt]
+\bottomrule
+\end{tabular}%
+}
+\end{table}

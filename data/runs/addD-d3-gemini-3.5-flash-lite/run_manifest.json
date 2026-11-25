@@ -1,0 +1,18 @@
+{
+  "block": "d3",
+  "model": "gemini-3.5-flash-lite",
+  "conditions": [
+    "A0"
+  ],
+  "scales": [
+    "x1e3",
+    "x1e8"
+  ],
+  "n_fixtures": 40,
+  "samples": 2,
+  "thinking_budget": 0,
+  "max_tokens": 1024,
+  "concurrency": 24,
+  "total_games": 320,
+  "started_utc": "20261123T025035Z"
+}
